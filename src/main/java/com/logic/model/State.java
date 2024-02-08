@@ -4,5 +4,5 @@ public enum State {
     CREATED,
     VERIFIED,
     ACCEPTED,
-    PUBLISHED;
+    PUBLISHED
 }

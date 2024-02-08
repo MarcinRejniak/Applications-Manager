@@ -64,6 +64,8 @@ public class ConnectionUtil implements ConnectionUtilInterface {
             String query = "SELECT * FROM " + tableName + ";";
             statement = conn.createStatement();
 
+
+
             ResultSet result = statement.executeQuery(query);
 
             while (result.next()) {

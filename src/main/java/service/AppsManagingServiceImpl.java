@@ -1,27 +1,10 @@
-package com.logic.service;
-
-import util.ConnectionUtilInterface;
+package service;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Scanner;
 
 public class AppsManagingServiceImpl implements AppsManagingService{
-    private final ConnectionUtilInterface connectionUtilInterface;
-
-    public AppsManagingServiceImpl(ConnectionUtilInterface connectionUtilInterface) {
-        this.connectionUtilInterface = connectionUtilInterface;
-    }
-
-    @Override
-    public void create() throws SQLException, InterruptedException {
-        Connection conn = connectionUtilInterface.connect_to_db("postgres", "postgres", "12345678");
-
-        connectionUtilInterface.createApplicationsTable(conn, "applications");
-
-        manage(conn);
-    }
-
     @Override
     public void manage(Connection conn) throws SQLException, InterruptedException {
         Scanner input = new Scanner(System.in);
@@ -35,7 +18,7 @@ public class AppsManagingServiceImpl implements AppsManagingService{
             System.out.println("Please enter the content of application");
             String applicationContent = input.nextLine();
 
-            connectionUtilInterface.insert_row(conn, "applications", applicationName, applicationContent);
+//            connectionUtilInterface.insert_row(conn, "applications", applicationName, applicationContent);
             System.out.println();
             System.out.println("would you like to continue entering data");
             System.out.println("Yes(1)/No(2)");
@@ -43,15 +26,15 @@ public class AppsManagingServiceImpl implements AppsManagingService{
                 input.nextLine();
             }
             if (input.nextInt() == 2) {
-                connectionUtilInterface.display(conn, "applications");
+//                connectionUtilInterface.display(conn, "applications");
                 System.out.println();
                 System.out.println("would you like to delete an entry Yes(1)/No(2)");
                 while (input.nextInt() == 1) {
                     System.out.println("select a name of application");
                     String deleteName = input.next();
-                    connectionUtilInterface.deleteApplication(conn, "applications", deleteName);
+//                    connectionUtilInterface.deleteApplication(conn, "applications", deleteName);
                     Thread.sleep(3000);
-                    connectionUtilInterface.display(conn, "applications");
+//                    connectionUtilInterface.display(conn, "applications");
                     System.out.println();
                     System.out.println("would you like to delete an entry Yes(1)/No(2)");
                 } break;

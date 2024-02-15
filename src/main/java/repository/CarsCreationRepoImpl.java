@@ -3,8 +3,7 @@ package repository;
 import java.sql.Connection;
 import java.sql.Statement;
 
-public class CarsCreationRepoImpl implements CarsCreationRepo{
-    @Override
+public class CarsCreationRepoImpl {
     public void createCarsTable(Connection conn, String tableName) {
         Statement statement;
         try {

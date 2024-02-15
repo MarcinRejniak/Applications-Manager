@@ -8,9 +8,7 @@ import java.sql.Statement;
 import java.util.LinkedList;
 import java.util.List;
 
-public class CarGettingRepoImpl implements CarGettingRepo{
-
-    @Override
+public class CarGettingRepoImpl {
     public List<CarEntity> findCar(Connection connection, String tableName, String brand, String model) {
         Statement statement;
         List<CarEntity> carEntityList = new LinkedList<>();

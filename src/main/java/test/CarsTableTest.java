@@ -1,12 +1,12 @@
 package test;
 
-import Utils.AddingAndGettingUtils;
 import dto.CarDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import repository.*;
-import service.*;
+import repository.ConnectionToDb;
+import service.CarsTableManagementService;
+import service.CarsTableManagementServiceImpl;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -18,11 +18,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CarsTableTest {
     private Connection connection;
-    
+    private CarsTableManagementService carsTableManagementService;
     @BeforeEach
     void connection(){
         ConnectionToDb connectionToDb = new ConnectionToDb();
         connection = connectionToDb.connect("postgres", "postgres", "12345678");
+
+        carsTableManagementService = new CarsTableManagementServiceImpl();
     } 
 
     @Test
@@ -37,25 +39,33 @@ public class CarsTableTest {
         expectedCars.add(new CarDto("Volvo", "XC60", 2023));
 
 //        When
-        AddingAndGettingUtils.addAllCars(connection, "cars");
-        List<CarDto> actualCars = AddingAndGettingUtils.getAllCars(connection, "cars");
+        carsTableManagementService.addCar(connection, "cars", "Toyota", "Yaris", 2020);
+        carsTableManagementService.addCar(connection,"cars" , "Ford", "Mustang", 1969);
+        carsTableManagementService.addCar(connection,"cars", "Ford", "Mondeo", 2003);
+        carsTableManagementService.addCar(connection,"cars", "BMW", "X3", 2021);
+        carsTableManagementService.addCar(connection,"cars", "Volvo", "XC60", 2023);
+
+        List<CarDto> actualCars = carsTableManagementService.findAllCars(connection, "cars");
 
 //        Then
         assertEquals(expectedCars.size(),actualCars.size());
     }
     
     @Test
-    void testValuesOfOneCar() throws SQLException {
+    void testValuesOfOneCar() {
 //        Given
         CarDto car = new CarDto("Ford", "Mustang", 1969);
 
-        CarGettingRepo carGettingRepo = new CarGettingRepoImpl();
-        CarGettingService carGettingService = new CarGettingServiceImpl(carGettingRepo);
-
 //        When
-        AddingAndGettingUtils.addAllCars(connection,"cars");
-        List<CarDto> cars = carGettingService.getCar(connection, "cars", "Ford", "Mustang");
-        
+        carsTableManagementService.addCar(connection, "cars", "Toyota", "Yaris", 2020);
+        carsTableManagementService.addCar(connection,"cars" , "Ford", "Mustang", 1969);
+        carsTableManagementService.addCar(connection,"cars", "Ford", "Mondeo", 2003);
+        carsTableManagementService.addCar(connection,"cars", "BMW", "X3", 2021);
+        carsTableManagementService.addCar(connection,"cars", "Volvo", "XC60", 2023);
+
+        List<CarDto> cars = carsTableManagementService
+                .getCar(connection, "cars", "Ford", "Mustang", 1969);
+
 //        Then
         assertEquals(car.getBrand(),cars.get(0).getBrand());
         assertEquals(car.getModel(),cars.get(0).getModel());
@@ -64,7 +74,6 @@ public class CarsTableTest {
     
     @AfterEach
     void deletionCars(){
-        AllCarsDeletionServiceImpl allCarsDeletionService = new AllCarsDeletionServiceImpl();
-        allCarsDeletionService.deleteAllCars(connection, "cars");
+        carsTableManagementService.deleteAllCars(connection,"cars");
    }
 }

@@ -4,7 +4,6 @@ import service.CarsTableManagementServiceImpl;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.List;
 
 
 public class Main {

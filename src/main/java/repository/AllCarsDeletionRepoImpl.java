@@ -10,7 +10,7 @@ public class AllCarsDeletionRepoImpl {
             String query = "DELETE FROM " + tableName + ";";
             statement = conn.createStatement();
             statement.executeUpdate(query);
-            System.out.println("All cars have benn deleted");
+            System.out.println("All cars have been deleted");
         } catch (Exception e) {
             System.out.println(e);
         }

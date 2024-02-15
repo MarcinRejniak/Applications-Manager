@@ -15,11 +15,9 @@ public class CarsCreationRepoImpl implements CarsCreationRepo{
 
             statement = conn.createStatement();
             statement.executeUpdate(query);
-            System.out.println("please enter the name of the car");
 
         } catch (Exception e) {
-            System.out.println("the cars table already exists");
-            System.out.println("please enter the name of the car or 1 to exit program");
+            System.out.println(e);
         }
     }
 }

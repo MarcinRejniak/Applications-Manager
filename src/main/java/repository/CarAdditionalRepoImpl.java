@@ -17,8 +17,8 @@ public class CarAdditionalRepoImpl implements CarAdditionalRepo{
         Statement statement;
         try {
             String query = "INSERT INTO " + tableName + "(brand, model, year) " +
-                    "VALUES ('" + carEntity.getModel() + "','" +
-                    carEntity.getBrand() + "'," +
+                    "VALUES ('" + carEntity.getBrand() + "','" +
+                    carEntity.getModel() + "'," +
                     carEntity.getYear() + ");";
 
             statement = conn.createStatement();

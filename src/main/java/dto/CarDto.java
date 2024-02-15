@@ -22,4 +22,13 @@ public class CarDto {
     public int getYear() {
         return year;
     }
+
+    @Override
+    public String toString() {
+        return "CarDto{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                '}';
+    }
 }

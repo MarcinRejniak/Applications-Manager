@@ -20,7 +20,7 @@ public class CarsTableTest {
     private Connection connection;
     private CarsTableManagementService carsTableManagementService;
 
-    private final String cars = "cars";
+    private final String tableName = "cars";
     private final String toyota = "Toyota";
     private final String ford = "Ford";
     private final String volvo = "Volvo";
@@ -37,7 +37,7 @@ public class CarsTableTest {
         connection = interactionWithDB.connect("postgres", "postgres", "12345678");
 
         carsTableManagementService = new CarsTableManagementServiceImpl();
-    } 
+    }
 
     @Test
     void testSizeOfCarsTable() throws SQLException {
@@ -53,7 +53,7 @@ public class CarsTableTest {
 //        When
         addCars();
 
-        List<CarDto> actualCars = carsTableManagementService.findAllCars(connection, cars);
+        List<CarDto> actualCars = carsTableManagementService.findAllCars(connection, tableName);
 
 //        Then
         assertEquals(expectedCars.size(),actualCars.size());
@@ -68,7 +68,7 @@ public class CarsTableTest {
         addCars();
 
         List<CarDto> cars = carsTableManagementService
-                .getCar(connection, this.cars, ford, mustang, 1969);
+                .getCar(connection, this.tableName, ford, mustang, 1969);
 
 //        Then
         assertEquals(car.getBrand(),cars.get(0).getBrand());
@@ -78,14 +78,14 @@ public class CarsTableTest {
 
     @AfterEach
     void deletionCars() throws SQLException {
-        carsTableManagementService.deleteAllCars(connection, cars);
+        carsTableManagementService.deleteAllCars(connection, tableName);
    }
 
     private void addCars() throws SQLException {
-        carsTableManagementService.addCar(connection, cars, toyota, yaris, 2020);
-        carsTableManagementService.addCar(connection, cars, ford, mustang, 1969);
-        carsTableManagementService.addCar(connection, cars, ford, mondeo, 2003);
-        carsTableManagementService.addCar(connection, cars, bmw, x3, 2021);
-        carsTableManagementService.addCar(connection, cars, volvo, xc60, 2023);
+        carsTableManagementService.addCar(connection, tableName, toyota, yaris, 2020);
+        carsTableManagementService.addCar(connection, tableName, ford, mustang, 1969);
+        carsTableManagementService.addCar(connection, tableName, ford, mondeo, 2003);
+        carsTableManagementService.addCar(connection, tableName, bmw, x3, 2021);
+        carsTableManagementService.addCar(connection, tableName, volvo, xc60, 2023);
     }
 }

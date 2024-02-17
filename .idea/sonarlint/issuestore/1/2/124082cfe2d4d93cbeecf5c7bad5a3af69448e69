@@ -1,0 +1,9 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(·Ýß°þÿÿÿÿ8°òÂ¾Û1
+X	java:S125"<This block of commented-out lines of code should be removed.(®ðº8°òÂ¾Û1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8°òÂ¾Û1
+F	java:S106!"+Replace this use of System.out by a logger.(ÿ®Ái8°òÂ¾Û1
+]	java:S125 "<This block of commented-out lines of code should be removed.(Á•­Àÿÿÿÿÿ8°òÂ¾Û1
+]	java:S125#"<This block of commented-out lines of code should be removed.(åÕßéûÿÿÿÿ8°òÂ¾Û1
+R
+java:S1128"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8à×Ü¾Û1

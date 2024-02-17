@@ -8,15 +8,15 @@ import java.util.List;
 
 public interface CarsTableManagementService {
     void manage(Connection connection) throws SQLException;
-    void createCarsTable(Connection connection, String tableName);
+    void createCarsTable(Connection connection, String tableName) throws SQLException;
 
-    void addCar(Connection connection, String tableName, String brand, String model, int year);
+    void addCar(Connection connection, String tableName, String brand, String model, int year) throws SQLException;
 
-    void deleteCar(Connection connection, String tableName, String brand, String model, int year);
+    void deleteCar(Connection connection, String tableName, String brand, String model, int year) throws SQLException;
 
-    List<CarDto> getCar(Connection connection, String tableName, String brand, String model, int year);
+    List<CarDto> getCar(Connection connection, String tableName, String brand, String model, int year) throws SQLException;
 
     List<CarDto> findAllCars(Connection connection, String tableName) throws SQLException;
 
-    void deleteAllCars(Connection connection, String tableName);
+    void deleteAllCars(Connection connection, String tableName) throws SQLException;
 }

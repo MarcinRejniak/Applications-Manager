@@ -14,6 +14,9 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+/applications_manager.iml
+/.idea/sonarlint/
+/target/classes/
 
 ### NetBeans ###
 /nbproject/private/

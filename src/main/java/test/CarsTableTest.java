@@ -4,12 +4,9 @@ import dto.CarDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import repository.InteractionWithDB;
 import service.CarsTableManagementService;
 import service.CarsTableManagementServiceImpl;
 
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -17,75 +14,62 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class CarsTableTest {
-    private Connection connection;
     private CarsTableManagementService carsTableManagementService;
 
-    private final String tableName = "cars";
-    private final String toyota = "Toyota";
-    private final String ford = "Ford";
-    private final String volvo = "Volvo";
-    private final String bmw = "BMW";
-    private final String yaris = "Yaris";
-    private final String mustang = "Mustang";
-    private final String mondeo = "Mondeo";
-    private final String x3 = "X3";
-    private final String xc60 = "XC60";
+    private static final String CARS_TABLE_NAME = "cars";
 
     @BeforeEach
-    void connection(){
-        InteractionWithDB interactionWithDB = new InteractionWithDB();
-        connection = interactionWithDB.connect("postgres", "postgres", "12345678");
-
+    void connection() {
         carsTableManagementService = new CarsTableManagementServiceImpl();
     }
 
     @Test
-    void testSizeOfCarsTable() throws SQLException {
+    void testSizeOfCarsTable() {
 //        Given
         List<CarDto> expectedCars = new LinkedList<>();
 
-        expectedCars.add(new CarDto(toyota, yaris, 2020));
-        expectedCars.add(new CarDto(ford, mustang, 1969));
-        expectedCars.add(new CarDto(ford, mondeo, 2003));
-        expectedCars.add(new CarDto(bmw, x3, 2021));
-        expectedCars.add(new CarDto(volvo, xc60, 2023));
+        expectedCars.add(new CarDto("Ford", "Mustang", 1969));
+        expectedCars.add(new CarDto("Ford", "Mondeo", 2003));
+        expectedCars.add(new CarDto("Toyota", "Yaris", 2020));
+        expectedCars.add(new CarDto("BMW", "X3", 2021));
+        expectedCars.add(new CarDto("Volvo", "XC60", 2023));
 
 //        When
         addCars();
 
-        List<CarDto> actualCars = carsTableManagementService.findAllCars(connection, tableName);
+        List<CarDto> actualCars = carsTableManagementService.findAllCars(CARS_TABLE_NAME);
 
 //        Then
-        assertEquals(expectedCars.size(),actualCars.size());
+        assertEquals(expectedCars.size(), actualCars.size());
     }
 
     @Test
-    void testValuesOfOneCar() throws SQLException {
+    void testValuesOfOneCar() {
 //        Given
-        CarDto car = new CarDto(ford, mustang, 1969);
+        CarDto carExpected = new CarDto("Ford", "Mustang", 1969);
 
 //        When
         addCars();
 
-        List<CarDto> cars = carsTableManagementService
-                .getCar(connection, this.tableName, ford, mustang, 1969);
+        CarDto carActual = carsTableManagementService
+                .getCar(CarsTableTest.CARS_TABLE_NAME, 2);
 
 //        Then
-        assertEquals(car.getBrand(),cars.get(0).getBrand());
-        assertEquals(car.getModel(),cars.get(0).getModel());
-        assertEquals(car.getYear(),cars.get(0).getYear());
+        assertEquals(carExpected.getBrand(), carActual.getBrand());
+        assertEquals(carExpected.getModel(), carActual.getModel());
+        assertEquals(carExpected.getYear(), carActual.getYear());
     }
 
     @AfterEach
-    void deletionCars() throws SQLException {
-        carsTableManagementService.deleteAllCars(connection, tableName);
-   }
+    void deletionCars() {
+        carsTableManagementService.deleteAllCars(CARS_TABLE_NAME);
+    }
 
-    private void addCars() throws SQLException {
-        carsTableManagementService.addCar(connection, tableName, toyota, yaris, 2020);
-        carsTableManagementService.addCar(connection, tableName, ford, mustang, 1969);
-        carsTableManagementService.addCar(connection, tableName, ford, mondeo, 2003);
-        carsTableManagementService.addCar(connection, tableName, bmw, x3, 2021);
-        carsTableManagementService.addCar(connection, tableName, volvo, xc60, 2023);
+    private void addCars() {
+        carsTableManagementService.addCar(CARS_TABLE_NAME, "Toyota", "Yaris", 2020);
+        carsTableManagementService.addCar(CARS_TABLE_NAME, "Ford", "Mustang", 1969);
+        carsTableManagementService.addCar(CARS_TABLE_NAME, "Ford", "Mondeo", 2003);
+        carsTableManagementService.addCar(CARS_TABLE_NAME, "BMW", "X3", 2021);
+        carsTableManagementService.addCar(CARS_TABLE_NAME, "Volvo", "XC60", 2023);
     }
 }

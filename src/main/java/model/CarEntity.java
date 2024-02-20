@@ -38,9 +38,9 @@ public class CarEntity {
     @Override
     public String toString() {
         return "CarEntity{" +
-                "brand='" + brand + '\'' +
+                ", brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
-                ", year='" + year + '\'' +
+                ", year=" + year +
                 '}';
     }
 }

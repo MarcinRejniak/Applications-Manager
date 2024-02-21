@@ -49,12 +49,8 @@ w
 G.idea/sonarlint/issuestore/5/7/57b278105f9f0b21954f146c4848470ae5e9f6fd,c\f\cf97abcbdd6c1c864c96f30d40cf2fb69b93bafe
 w
 G.idea/sonarlint/issuestore/a/9/a9f6f1b8a7c144d1a61dc86beb23477c1fbfa269,a\6\a6c9fd4c1eec41f395fcc3df6879497047efc2ae
-w
-G.idea/sonarlint/issuestore/e/4/e4701fc0b01e04f82017e965c69a92c570d3d230,4\7\4770339305f9d264029f9f9258407192277b6727
 Å
 Q.idea/sonarlint/securityhotspotstore/a/9/a9f6f1b8a7c144d1a61dc86beb23477c1fbfa269,a\3\a34377cf5538e16af7a64e98a59107565c1eeada
-Å
-Q.idea/sonarlint/securityhotspotstore/e/4/e4701fc0b01e04f82017e965c69a92c570d3d230,4\c\4c2b1ba0ba7ac7447da8b0777c3bb8bd32070358
 w
 G.idea/sonarlint/issuestore/e/4/e4102410c7f8857e983fdf87ce93b37e1a323fda,6\5\658cc55e1b6a448cddfdc98cbd4635f669823a21
 Å
@@ -87,8 +83,6 @@ w
 G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a\e\ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
 w
 G.idea/sonarlint/issuestore/f/5/f57ced4177ab73d2911943dd3b8e5eb0661b2a73,a\9\a9e9c1c8ce0cb0029dff7eafeb13593a229032b1
-w
-G.idea/sonarlint/issuestore/0/4/048ea5683f6f0d35f47d197872261e99e058bcf6,e\3\e3f4d8c065b701f0c5e3377940313373583416d2
 \
 ,src/main/java/repository/CarsRepository.java,5\a\5a88e64892c3a27b07997e6849656f58598cb2f0
 :

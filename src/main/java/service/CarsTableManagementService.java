@@ -10,7 +10,7 @@ public interface CarsTableManagementService {
 
     void addCar(String tableName, String brand, String model, int year);
 
-    void deleteCar(String tableName, int id);
+    void deleteCar(String tableName, String brand, String model, int year);
 
     CarDto getCar(String tableName, int id);
 

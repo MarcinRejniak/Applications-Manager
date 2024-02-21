@@ -14,20 +14,21 @@ public class CarsTableManagementServiceImpl implements CarsTableManagementServic
     public void manage() {
         createCarsTable("cars");
 
-        addCar("cars", "Toyota", "Yaris", 2020);
-        addCar("cars", "Ford", "Mustang", 1969);
-        addCar("cars", "Ford", "Mondeo", 2003);
-        addCar("cars", "BMW", "X3", 2021);
-        addCar("cars", "Volvo", "XC60", 2023);
-
-        List<CarDto> cars = findAllCars("cars");
-        System.out.println(cars);
-        System.out.println();
-
-        CarDto car = getCar("cars", 2);
-        System.out.println(car);
-
-        deleteCar("cars", 2);
+//        addCar("cars", "Toyota", "Yaris", 2020);
+//        addCar("cars", "Ford", "Mustang", 1969);
+//        addCar("cars", "Ford", "Mondeo", 2003);
+//        addCar("cars", "BMW", "X3", 2021);
+//        addCar("cars", "Volvo", "XC60", 2023);
+//
+//        List<CarDto> cars = findAllCars("cars");
+//        System.out.println(cars);
+//        System.out.println();
+//
+//        CarDto car = getCar("cars", 40);
+//        System.out.println(car);
+//
+////        deleteCar("cars", "Toyota", "Yaris", 2020);
+//        deleteAllCars("cars");
     }
 
     @Override
@@ -43,8 +44,8 @@ public class CarsTableManagementServiceImpl implements CarsTableManagementServic
     }
 
     @Override
-    public void deleteCar(String tableName, int id) {
-        carsRepository.deleteCar(tableName, id);
+    public void deleteCar(String tableName, String brand, String model, int year) {
+        carsRepository.deleteCar(tableName, brand, model, year);
     }
 
     @Override

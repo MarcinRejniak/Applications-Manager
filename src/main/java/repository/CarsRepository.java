@@ -69,6 +69,7 @@ public final class CarsRepository {
         try (Statement statement = connection.createStatement()) {
             String query = "INSERT INTO " + tableName + " (brand, model, year) " +
                     "VALUES ('" +
+//                    id + " ,'" +
                     carEntity.getBrand() + "','" +
                     carEntity.getModel() + "'," +
                     carEntity.getYear() + ");";
@@ -80,11 +81,13 @@ public final class CarsRepository {
         }
     }
 
-    public void deleteCar(String tableName, int id) {
+    public void deleteCar(String tableName, String brand, String model, int year) {
         try (Statement statement = connection.createStatement()) {
-            String query = "DELETE FROM " + tableName + " Where carid = " + id + ";";
+            String query = "DELETE FROM " + tableName + " Where brand = '" + brand + "' and model = '" + model +
+                    "' and year = " + year + ";";
             statement.executeUpdate(query);
-            System.out.println("Cars with id " + id + " have been deleted");
+            System.out.println("Cars with brand '" + brand + "', model '" + model + "' and year " + year +
+                    " have been deleted");
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -103,7 +106,7 @@ public final class CarsRepository {
     public CarEntity findCar(String tableName, int id) {
         CarEntity carEntity = null;
         try (Statement statement = connection.createStatement()) {
-            String query = "SELECT * FROM " + tableName + " Where carid = " + id + ";";
+            String query = "SELECT * FROM " + tableName + " Where carid = '" + id + "';";
             ResultSet result = statement.executeQuery(query);
 
             while (result.next()) {

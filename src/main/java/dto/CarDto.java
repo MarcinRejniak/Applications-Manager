@@ -25,10 +25,10 @@ public class CarDto {
 
     @Override
     public String toString() {
-        return "CarDto{" +
-                "brand='" + brand + '\'' +
+        return "CarDto:" +
+                " brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", year=" + year +
-                '}';
+                ' ';
     }
 }

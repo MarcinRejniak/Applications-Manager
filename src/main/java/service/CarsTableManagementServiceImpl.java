@@ -2,72 +2,61 @@ package service;
 
 import dto.CarDto;
 import model.CarEntity;
-import repository.*;
+import repository.CarsRepository;
 
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
 
 public class CarsTableManagementServiceImpl implements CarsTableManagementService {
+    CarsRepository carsRepository = CarsRepository.getInstance("postgres", "postgres", "12345678");
+
     @Override
-    public void manage(Connection connection) throws SQLException {
-        createCarsTable(connection, "cars");
+    public void manage() {
+        createCarsTable("cars");
 
-        addCar(connection, "cars", "Toyota", "Yaris", 2020);
-        addCar(connection, "cars", "Ford", "Mustang", 1969);
-        addCar(connection, "cars", "Ford", "Mondeo", 2003);
-        addCar(connection, "cars", "BMW", "X3", 2021);
-        addCar(connection, "cars", "Volvo", "XC60", 2023);
-
-        List<CarDto> cars = findAllCars(connection, "cars");
-        System.out.println(cars);
-        System.out.println();
-
-        List<CarDto> car = getCar(connection, "cars", "Ford", "Mustang", 1969);
-        System.out.println(car);
-
-//        deleteCar(connection, "cars", "Toyota", "Yaris", 2020);
-//        deleteAllCars(connection, "cars");
+//        addCar("cars", "Toyota", "Yaris", 2020);
+//        addCar("cars", "Ford", "Mustang", 1969);
+//        addCar("cars", "Ford", "Mondeo", 2003);
+//        addCar("cars", "BMW", "X3", 2021);
+//        addCar("cars", "Volvo", "XC60", 2023);
+//
+//        List<CarDto> cars = findAllCars("cars");
+//        System.out.println(cars);
+//        System.out.println();
+//
+//        CarDto car = getCar("cars", 40);
+//        System.out.println(car);
+//
+////        deleteCar("cars", "Toyota", "Yaris", 2020);
+//        deleteAllCars("cars");
     }
 
     @Override
-    public void createCarsTable(Connection connection, String tableName) {
-        CarsCreationRepoImpl carsCreationRepo = new CarsCreationRepoImpl();
-        carsCreationRepo.createCarsTable(connection, tableName);
+    public void createCarsTable(String tableName) {
+        carsRepository.createCarsTable(tableName);
     }
 
     @Override
-    public void addCar(Connection connection, String tableName, String brand, String model, int year) {
+    public void addCar(String tableName, String brand, String model, int year) {
         CarDto carDto = new CarDto(brand, model, year);
-//        List<CarDto> carsDto = new LinkedList<>();
-//        carsDto.add(carDto);
 
-        CarAdditionalRepoImpl carAdditionalRepo = new CarAdditionalRepoImpl();
-        carAdditionalRepo.addCar(connection, tableName, carDto.getBrand(), carDto.getModel(), carDto.getYear());
+        carsRepository.addCar(tableName, carDto.getBrand(), carDto.getModel(), carDto.getYear());
     }
 
     @Override
-    public void deleteCar(Connection connection, String tableName, String brand, String model, int year) {
-        CarDeletionRepoImpl carDeletionRepo = new CarDeletionRepoImpl();
-        carDeletionRepo.deleteCar(connection, tableName, brand, model, year);
+    public void deleteCar(String tableName, String brand, String model, int year) {
+        carsRepository.deleteCar(tableName, brand, model, year);
     }
 
     @Override
-    public List<CarDto> getCar(Connection connection, String tableName, String brand, String model, int year) {
-        CarGettingRepoImpl carGettingRepo = new CarGettingRepoImpl();
-        List<CarEntity> carEntity = carGettingRepo.findCar(connection, tableName, brand, model);
-        List<CarDto> carDtoList = new LinkedList<>();
-        for (int i = 0; i < carEntity.size(); i++) {
-            carDtoList.add(new CarDto(brand, model, year));
-        }
-        return carDtoList;
+    public CarDto getCar(String tableName, int id) {
+        CarEntity carEntity = carsRepository.findCar(tableName, id);
+        return new CarDto(carEntity.getBrand(), carEntity.getModel(), carEntity.getYear());
     }
 
     @Override
-    public List<CarDto> findAllCars(Connection connection, String tableName) throws SQLException {
-        AllCarsGettingRepoImpl allCarsGettingRepo = new AllCarsGettingRepoImpl();
-        List<CarEntity> carEntityList = allCarsGettingRepo.findAllCars(connection, tableName);
+    public List<CarDto> findAllCars(String tableName) {
+        List<CarEntity> carEntityList = carsRepository.findAllCars(tableName);
 
         List<CarDto> carDtoList = new LinkedList<>();
 
@@ -82,8 +71,7 @@ public class CarsTableManagementServiceImpl implements CarsTableManagementServic
     }
 
     @Override
-    public void deleteAllCars(Connection connection, String tableName) {
-        AllCarsDeletionRepoImpl allCarsDeletionRepo = new AllCarsDeletionRepoImpl();
-        allCarsDeletionRepo.deleteAllCars(connection, tableName);
+    public void deleteAllCars(String tableName) {
+        carsRepository.deleteAllCars(tableName);
     }
 }

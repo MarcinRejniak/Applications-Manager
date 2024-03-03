@@ -2,21 +2,19 @@ package service;
 
 import dto.CarDto;
 
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.List;
 
 public interface CarsTableManagementService {
-    void manage(Connection connection) throws SQLException;
-    void createCarsTable(Connection connection, String tableName);
+    void manage();
+    void createCarsTable(String tableName);
 
-    void addCar(Connection connection, String tableName, String brand, String model, int year);
+    void addCar(String tableName, String brand, String model, int year);
 
-    void deleteCar(Connection connection, String tableName, String brand, String model, int year);
+    void deleteCar(String tableName, String brand, String model, int year);
 
-    List<CarDto> getCar(Connection connection, String tableName, String brand, String model, int year);
+    CarDto getCar(String tableName, int id);
 
-    List<CarDto> findAllCars(Connection connection, String tableName) throws SQLException;
+    List<CarDto> findAllCars(String tableName);
 
-    void deleteAllCars(Connection connection, String tableName);
+    void deleteAllCars(String tableName);
 }

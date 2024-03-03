@@ -1,0 +1,10 @@
+PUT http://localhost:8080/cars/update
+Content-Type: application/json
+
+{
+  "id": 3,
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2022
+}
+###

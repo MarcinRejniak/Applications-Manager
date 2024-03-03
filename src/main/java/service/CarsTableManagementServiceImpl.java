@@ -2,8 +2,10 @@ package service;
 
 import dto.CarDto;
 import model.CarEntity;
-import repository.CarsRepository;
+import repository.*;
 
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -14,21 +16,20 @@ public class CarsTableManagementServiceImpl implements CarsTableManagementServic
     public void manage() {
         createCarsTable("cars");
 
-//        addCar("cars", "Toyota", "Yaris", 2020);
-//        addCar("cars", "Ford", "Mustang", 1969);
-//        addCar("cars", "Ford", "Mondeo", 2003);
-//        addCar("cars", "BMW", "X3", 2021);
-//        addCar("cars", "Volvo", "XC60", 2023);
-//
-//        List<CarDto> cars = findAllCars("cars");
-//        System.out.println(cars);
-//        System.out.println();
-//
-//        CarDto car = getCar("cars", 40);
-//        System.out.println(car);
-//
-////        deleteCar("cars", "Toyota", "Yaris", 2020);
-//        deleteAllCars("cars");
+        addCar("cars", "Toyota", "Yaris", 2020);
+        addCar("cars", "Ford", "Mustang", 1969);
+        addCar("cars", "Ford", "Mondeo", 2003);
+        addCar("cars", "BMW", "X3", 2021);
+        addCar("cars", "Volvo", "XC60", 2023);
+
+        List<CarDto> cars = findAllCars("cars");
+        System.out.println(cars);
+        System.out.println();
+
+        CarDto car = getCar("cars", 10);
+        System.out.println(car);
+
+        deleteCar("cars", "Toyota", "Yaris", 2020);
     }
 
     @Override

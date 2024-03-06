@@ -1,4 +1,4 @@
-package model;
+package oldwithoutspring.model;
 
 public class CarEntity {
     private String brand;

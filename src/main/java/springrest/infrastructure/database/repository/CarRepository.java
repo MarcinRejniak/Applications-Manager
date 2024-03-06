@@ -1,6 +1,6 @@
-package accesingdatapostgres.dao;
+package springrest.infrastructure.database.repository;
 
-import accesingdatapostgres.dao.entity.CarEntity;
+import springrest.infrastructure.database.entity.CarEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

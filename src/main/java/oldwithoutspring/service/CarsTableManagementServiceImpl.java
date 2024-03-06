@@ -1,11 +1,9 @@
-package service;
+package oldwithoutspring.service;
 
-import dto.CarDto;
-import model.CarEntity;
-import repository.*;
+import oldwithoutspring.dto.CarDto;
+import oldwithoutspring.model.CarEntity;
+import oldwithoutspring.repository.*;
 
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package repository;
+package oldwithoutspring.repository;
 
-import model.CarEntity;
+import oldwithoutspring.model.CarEntity;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -111,7 +111,7 @@ public final class CarsRepository {
 
             while (result.next()) {
                 String brand = result.getString("brand");
-                String model = result.getString("model");
+                String model = result.getString("oldwithoutspring/model");
                 int year = result.getInt("year");
                 carEntity = new CarEntity(brand, model, year);
                 System.out.println("foundCarWith:\n- ID: " + id);
@@ -131,7 +131,7 @@ public final class CarsRepository {
             ResultSet result = statement.executeQuery(query);
             while (result.next()) {
                 String brand = result.getString("brand");
-                String model = result.getString("model");
+                String model = result.getString("oldwithoutspring/model");
                 int year = result.getInt("year");
                 CarEntity carEntity = new CarEntity(brand, model, year);
                 carEntityList.add(carEntity);

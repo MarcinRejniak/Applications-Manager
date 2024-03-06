@@ -1,4 +1,4 @@
-package accesingdatapostgres.dao.entity;
+package springrest.infrastructure.database.entity;
 
 
 import jakarta.persistence.*;

@@ -1,5 +1,7 @@
-import service.CarsTableManagementService;
-import service.CarsTableManagementServiceImpl;
+package oldwithoutspring;
+
+import oldwithoutspring.service.CarsTableManagementService;
+import oldwithoutspring.service.CarsTableManagementServiceImpl;
 
 
 public class Main {

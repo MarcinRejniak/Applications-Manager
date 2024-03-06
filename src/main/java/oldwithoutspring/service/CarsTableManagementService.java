@@ -1,6 +1,6 @@
-package service;
+package oldwithoutspring.service;
 
-import dto.CarDto;
+import oldwithoutspring.dto.CarDto;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package dto;
+package oldwithoutspring.dto;
 
 public class CarDto {
     private final String brand;

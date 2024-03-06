@@ -1,11 +1,11 @@
-package test;
+package oldwithoutspring.test;
 
-import dto.CarDto;
+import oldwithoutspring.dto.CarDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import service.CarsTableManagementService;
-import service.CarsTableManagementServiceImpl;
+import oldwithoutspring.service.CarsTableManagementService;
+import oldwithoutspring.service.CarsTableManagementServiceImpl;
 
 import java.util.LinkedList;
 import java.util.List;

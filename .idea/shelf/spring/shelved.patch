@@ -1,0 +1,667 @@
+Index: .idea/sonarlint/issuestore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+new file mode 100644
+--- /dev/null	(date 1709477440759)
++++ b/.idea/sonarlint/issuestore/index.pb	(date 1709477440759)
+@@ -0,0 +1,86 @@
++
++H
++applications_manager.iml,a\9\a9f6f1b8a7c144d1a61dc86beb23477c1fbfa269
++\
++,src/main/java/repository/CarsRepository.java,5\a\5a88e64892c3a27b07997e6849656f58598cb2f0
++:
++
++.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
++i
++9src/main/java/service/CarsTableManagementServiceImpl.java,1\2\124082cfe2d4d93cbeecf5c7bad5a3af69448e69
++U
++%src/main/java/test/CarsTableTest.java,0\e\0e7ae8e0a4476f14a56c88834d1049404b1b5d0f
++M
++src/main/java/dto/CarDto.java,3\1\31e12ca2ec6e3481a3015e39d75dd049d6c39d5d
++G
++src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
++7
++pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
++e
++5src/main/java/service/CarsTableManagementService.java,5\3\5322a08a652b170b7f38e47328b7eeab6df2d899
++c
++3src/main/java/testingweb/TestingWebApplication.java,e\c\ec7a1db651a91ffca04b63a5906f17cd63ec29b2
++\
++,src/main/java/testingweb/HomeController.java,3\e\3e2849641ae81c802364736a186fa9d17bfcbf3e
++k
++;src/test/java/com/testingweb/TestingWebApplicationTest.java,3\0\30728e6f0fd95acd7b50fd396b5471ef4858a524
++R
++"src/main/java/model/CarEntity.java,0\8\0873c6b5e5e16e6a9932e038d2013560fdea034f
++a
++1src/main/java/accesingdatapostgres/CarEntity.java,6\0\60983a0fd6c824992d5ee4d3e8b7da7eda08d23b
++e
++5src/main/java/accesingdatapostgres/CarRepository.java,f\d\fd6a81b94cf0a4a29fbbf60a4b7163fb58ae6343
++x
++Hsrc/main/java/accesingdatapostgres/AccessingDataPostgresApplication.java,0\7\0761e6a76120cb44c3e3db2a021e37e9efec9ca4
++e
++5src/main/java/accesingdatapostgres/CarController.java,6\e\6e37b8058440ad82acde291d9d662897a08a924b
++X
++(src/main/java/restapi/CarController.java,d\4\d45daec73daa39fa524970b5301117d540b5edd3
++k
++;src/main/java/restapi/AccessingDataPostgresApplication.java,9\0\90a5a5968b1d00b43c7a5b50923107a97b5c96fe
++T
++$src/main/java/restapi/CarEntity.java,2\e\2e99e51f833a0b556424e07e0a8c73470a158b72
++W
++'src/main/java/spring/CarController.java,5\8\58d753ca42a3453db0ef01aaf43e7c8bd23e0b79
++j
++:src/main/java/spring/AccessingDataPostgresApplication.java,4\1\41cf60a5282d3b0094df150a43b2a20ea944af0a
++S
++#src/main/java/spring/CarEntity.java,d\f\df1eb379e87f2a69985549a051aeacac6e17b1f1
++[
+++src/main/java/accesingdatapostgres/Car.java,3\7\371002410e2a6bb6aafe8d3c5f92ebf754999391
++l
++<src/main/java/accesingdatapostgres/CarNotFoundException.java,7\8\78997c000bc73c954814ac0d4fa87881930e34bc
++b
++2src/main/java/accesingdatapostgres/CarService.java,d\3\d34d6a164576ea9339be5973ddf722ba64b82af8
++^
++.src/main/java/accesingdatapostgres/CarDto.java,9\e\9e782a4af204166716c78a97a06abed0d4609ca3
++^
++.src/main/java/accesingdatapostgres/CarApi.java,1\c\1cf05063b23fe4316a8f5704cfdf1f9b17c29da9
++i
++9src/main/java/accesingdatapostgres/dao/CarRepository.java,8\f\8fb88a3b4853092a2389370b1e827946a7545144
++e
++5src/main/java/accesingdatapostgres/dao/CarEntity.java,0\c\0c04d688930ae9c52360285ab5ec249fa278b14c
++i
++9src/main/java/accesingdatapostgres/api/CarController.java,5\2\52935d46a8ca6e0fa11e275059fbbcf7c4f1d982
++j
++:src/main/java/accesingdatapostgres/service/CarService.java,d\6\d620197257aa77a3e1e60109a11bfb70e527c82e
++f
++6src/main/java/accesingdatapostgres/CarApplication.java,8\3\83c08c6f8f85b4ab5c0306e7f6b0578ec2146944
++w
++Gsrc/main/java/accesingdatapostgres/exceptions/CarNotFoundException.java,7\b\7b56d90fe12cd3a986cd33381ea8cc5ee5f476aa
++b
++2src/main/java/accesingdatapostgres/api/CarApi.java,f\a\fae9c267df77efba9f1d6c007615d91d7a7fea41
++l
++<src/main/java/accesingdatapostgres/dao/entity/CarEntity.java,5\b\5b083c200584ca2ba5ca22096cf1fcbe311ed1d1
++U
++%src/main/java/restapi/api/CarApi.java,6\a\6a96dd45e425f1c5b7b492c5655f0497b12cd953
++Y
++)src/main/java/restapi/CarApplication.java,d\5\d5f42bd70af2b67094b1a713e60c2b877df344cc
++\
++,src/main/java/restapi/dao/CarRepository.java,f\7\f752332b358d913ee42c71cd3d37b11b8e748f59
++_
++/src/main/java/restapi/dao/entity/CarEntity.java,8\2\820fc01ab420e7abea3025d0bf9f2f7d2a09f5f2
++Q
++!src/main/java/restapi/CarDto.java,c\9\c999f731dea14b47089ae442d0ce0e60ec6582c4
++f
++6src/main/java/accesingdatapostgres/dao/dto/CarDto.java,d\8\d8eedf375485ce031a318d64424ccd2b5cd3c0e3
+\ No newline at end of file
+Index: target/classes/POST.http
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/POST.http b/target/classes/POST.http
+new file mode 100644
+--- /dev/null	(date 1709473958884)
++++ b/target/classes/POST.http	(date 1709473958884)
+@@ -0,0 +1,21 @@
++POST http://localhost:8080/cars/add
++Content-Type: application/json
++
++{
++  "brand": "Volkswagen",
++  "model": "Golf",
++  "year": 2004
++}
++
++
++###
++POST http://localhost:8080/cars/add
++Content-Type: application/json
++
++{
++  "brand": "Volvo",
++  "model": "XC60",
++  "year": 2023
++}
++
++###
+\ No newline at end of file
+Index: target/classes/PUT.http
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/PUT.http b/target/classes/PUT.http
+new file mode 100644
+--- /dev/null	(date 1709473722547)
++++ b/target/classes/PUT.http	(date 1709473722547)
+@@ -0,0 +1,10 @@
++PUT http://localhost:8080/cars/update
++Content-Type: application/json
++
++{
++  "id": 3,
++  "brand": "Volvo",
++  "model": "XC60",
++  "year": 2022
++}
++###
+Index: target/classes/DELETE.http
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/DELETE.http b/target/classes/DELETE.http
+new file mode 100644
+--- /dev/null	(date 1709454073902)
++++ b/target/classes/DELETE.http	(date 1709454073902)
+@@ -0,0 +1,4 @@
++DELETE http://localhost:8080/cars/delete/2
++Accept: application/json
++
++###
+Index: target/classes/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/application.yml b/target/classes/application.yml
+new file mode 100644
+--- /dev/null	(date 1709473182058)
++++ b/target/classes/application.yml	(date 1709473182058)
+@@ -0,0 +1,10 @@
++spring:
++  datasource:
++    url: "jdbc:postgresql://localhost:5432/postgres"
++    username: 'postgres'
++    password: '12345678'
++    driver-class-name: org.postgresql.Driver
++  jpa:
++    hibernate:
++      ddl-auto: create-drop
++    show-sql: true
+Index: src/main/java/service/CarsTableManagementServiceImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package service;\r\n\r\nimport dto.CarDto;\r\nimport model.CarEntity;\r\nimport repository.*;\r\n\r\nimport java.sql.Connection;\r\nimport java.sql.SQLException;\r\nimport java.util.LinkedList;\r\nimport java.util.List;\r\n\r\npublic class CarsTableManagementServiceImpl implements CarsTableManagementService {\r\n    @Override\r\n    public void manage(Connection connection) throws SQLException {\r\n        createCarsTable(connection, \"cars\");\r\n\r\n        addCar(connection, \"cars\", \"Toyota\", \"Yaris\", 2020);\r\n        addCar(connection, \"cars\", \"Ford\", \"Mustang\", 1969);\r\n        addCar(connection, \"cars\", \"Ford\", \"Mondeo\", 2003);\r\n        addCar(connection, \"cars\", \"BMW\", \"X3\", 2021);\r\n        addCar(connection, \"cars\", \"Volvo\", \"XC60\", 2023);\r\n\r\n        List<CarDto> cars = findAllCars(connection, \"cars\");\r\n        System.out.println(cars);\r\n        System.out.println();\r\n\r\n        List<CarDto> car = getCar(connection, \"cars\", \"Ford\", \"Mustang\", 1969);\r\n        System.out.println(car);\r\n\r\n//        deleteCar(connection, \"cars\", \"Toyota\", \"Yaris\", 2020);\r\n//        deleteAllCars(connection, \"cars\");\r\n    }\r\n\r\n    @Override\r\n    public void createCarsTable(Connection connection, String tableName) {\r\n        CarsCreationRepoImpl carsCreationRepo = new CarsCreationRepoImpl();\r\n        carsCreationRepo.createCarsTable(connection, tableName);\r\n    }\r\n\r\n    @Override\r\n    public void addCar(Connection connection, String tableName, String brand, String model, int year) {\r\n        CarDto carDto = new CarDto(brand, model, year);\r\n//        List<CarDto> carsDto = new LinkedList<>();\r\n//        carsDto.add(carDto);\r\n\r\n        CarAdditionalRepoImpl carAdditionalRepo = new CarAdditionalRepoImpl();\r\n        carAdditionalRepo.addCar(connection, tableName, carDto.getBrand(), carDto.getModel(), carDto.getYear());\r\n    }\r\n\r\n    @Override\r\n    public void deleteCar(Connection connection, String tableName, String brand, String model, int year) {\r\n        CarDeletionRepoImpl carDeletionRepo = new CarDeletionRepoImpl();\r\n        carDeletionRepo.deleteCar(connection, tableName, brand, model, year);\r\n    }\r\n\r\n    @Override\r\n    public List<CarDto> getCar(Connection connection, String tableName, String brand, String model, int year) {\r\n        CarGettingRepoImpl carGettingRepo = new CarGettingRepoImpl();\r\n        List<CarEntity> carEntity = carGettingRepo.findCar(connection, tableName, brand, model);\r\n        List<CarDto> carDtoList = new LinkedList<>();\r\n        for (int i = 0; i < carEntity.size(); i++) {\r\n            carDtoList.add(new CarDto(brand, model, year));\r\n        }\r\n        return carDtoList;\r\n    }\r\n\r\n    @Override\r\n    public List<CarDto> findAllCars(Connection connection, String tableName) throws SQLException {\r\n        AllCarsGettingRepoImpl allCarsGettingRepo = new AllCarsGettingRepoImpl();\r\n        List<CarEntity> carEntityList = allCarsGettingRepo.findAllCars(connection, tableName);\r\n\r\n        List<CarDto> carDtoList = new LinkedList<>();\r\n\r\n        for (CarEntity car : carEntityList) {\r\n            String brand = car.getBrand();\r\n            String model = car.getModel();\r\n            int year = car.getYear();\r\n            carDtoList.add(new CarDto(brand, model, year));\r\n        }\r\n\r\n        return carDtoList;\r\n    }\r\n\r\n    @Override\r\n    public void deleteAllCars(Connection connection, String tableName) {\r\n        AllCarsDeletionRepoImpl allCarsDeletionRepo = new AllCarsDeletionRepoImpl();\r\n        allCarsDeletionRepo.deleteAllCars(connection, tableName);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/service/CarsTableManagementServiceImpl.java b/src/main/java/service/CarsTableManagementServiceImpl.java
+--- a/src/main/java/service/CarsTableManagementServiceImpl.java	(revision bc60e1edf396549933ebfb197012b4661574760d)
++++ b/src/main/java/service/CarsTableManagementServiceImpl.java	(date 1709477438446)
+@@ -2,72 +2,60 @@
+ 
+ import dto.CarDto;
+ import model.CarEntity;
+-import repository.*;
++import repository.CarsRepository;
+ 
+-import java.sql.Connection;
+-import java.sql.SQLException;
+ import java.util.LinkedList;
+ import java.util.List;
+ 
+ public class CarsTableManagementServiceImpl implements CarsTableManagementService {
++    CarsRepository carsRepository = CarsRepository.getInstance("postgres", "postgres", "12345678");
++
+     @Override
+-    public void manage(Connection connection) throws SQLException {
+-        createCarsTable(connection, "cars");
++    public void manage() {
++        createCarsTable("cars");
+ 
+-        addCar(connection, "cars", "Toyota", "Yaris", 2020);
+-        addCar(connection, "cars", "Ford", "Mustang", 1969);
+-        addCar(connection, "cars", "Ford", "Mondeo", 2003);
+-        addCar(connection, "cars", "BMW", "X3", 2021);
+-        addCar(connection, "cars", "Volvo", "XC60", 2023);
++        addCar("cars", "Toyota", "Yaris", 2020);
++        addCar("cars", "Ford", "Mustang", 1969);
++        addCar("cars", "Ford", "Mondeo", 2003);
++        addCar("cars", "BMW", "X3", 2021);
++        addCar("cars", "Volvo", "XC60", 2023);
+ 
+-        List<CarDto> cars = findAllCars(connection, "cars");
++        List<CarDto> cars = findAllCars("cars");
+         System.out.println(cars);
+         System.out.println();
+ 
+-        List<CarDto> car = getCar(connection, "cars", "Ford", "Mustang", 1969);
++        CarDto car = getCar("cars", 10);
+         System.out.println(car);
+ 
+-//        deleteCar(connection, "cars", "Toyota", "Yaris", 2020);
+-//        deleteAllCars(connection, "cars");
++        deleteCar("cars", "Toyota", "Yaris", 2020);
+     }
+ 
+     @Override
+-    public void createCarsTable(Connection connection, String tableName) {
+-        CarsCreationRepoImpl carsCreationRepo = new CarsCreationRepoImpl();
+-        carsCreationRepo.createCarsTable(connection, tableName);
++    public void createCarsTable(String tableName) {
++        carsRepository.createCarsTable(tableName);
+     }
+ 
+     @Override
+-    public void addCar(Connection connection, String tableName, String brand, String model, int year) {
++    public void addCar(String tableName, String brand, String model, int year) {
+         CarDto carDto = new CarDto(brand, model, year);
+-//        List<CarDto> carsDto = new LinkedList<>();
+-//        carsDto.add(carDto);
+ 
+-        CarAdditionalRepoImpl carAdditionalRepo = new CarAdditionalRepoImpl();
+-        carAdditionalRepo.addCar(connection, tableName, carDto.getBrand(), carDto.getModel(), carDto.getYear());
++        carsRepository.addCar(tableName, carDto.getBrand(), carDto.getModel(), carDto.getYear());
+     }
+ 
+     @Override
+-    public void deleteCar(Connection connection, String tableName, String brand, String model, int year) {
+-        CarDeletionRepoImpl carDeletionRepo = new CarDeletionRepoImpl();
+-        carDeletionRepo.deleteCar(connection, tableName, brand, model, year);
++    public void deleteCar(String tableName, String brand, String model, int year) {
++        carsRepository.deleteCar(tableName, brand, model, year);
+     }
+ 
+     @Override
+-    public List<CarDto> getCar(Connection connection, String tableName, String brand, String model, int year) {
+-        CarGettingRepoImpl carGettingRepo = new CarGettingRepoImpl();
+-        List<CarEntity> carEntity = carGettingRepo.findCar(connection, tableName, brand, model);
+-        List<CarDto> carDtoList = new LinkedList<>();
+-        for (int i = 0; i < carEntity.size(); i++) {
+-            carDtoList.add(new CarDto(brand, model, year));
+-        }
+-        return carDtoList;
++    public CarDto getCar(String tableName, int id) {
++        CarEntity carEntity = carsRepository.findCar(tableName, id);
++        return new CarDto(carEntity.getBrand(), carEntity.getModel(), carEntity.getYear());
+     }
+ 
+     @Override
+-    public List<CarDto> findAllCars(Connection connection, String tableName) throws SQLException {
+-        AllCarsGettingRepoImpl allCarsGettingRepo = new AllCarsGettingRepoImpl();
+-        List<CarEntity> carEntityList = allCarsGettingRepo.findAllCars(connection, tableName);
++    public List<CarDto> findAllCars(String tableName) {
++        List<CarEntity> carEntityList = carsRepository.findAllCars(tableName);
+ 
+         List<CarDto> carDtoList = new LinkedList<>();
+ 
+@@ -82,8 +70,7 @@
+     }
+ 
+     @Override
+-    public void deleteAllCars(Connection connection, String tableName) {
+-        AllCarsDeletionRepoImpl allCarsDeletionRepo = new AllCarsDeletionRepoImpl();
+-        allCarsDeletionRepo.deleteAllCars(connection, tableName);
++    public void deleteAllCars(String tableName) {
++        carsRepository.deleteAllCars(tableName);
+     }
+ }
+Index: .idea/sonarlint/securityhotspotstore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/securityhotspotstore/index.pb b/.idea/sonarlint/securityhotspotstore/index.pb
+new file mode 100644
+--- /dev/null	(date 1709477440760)
++++ b/.idea/sonarlint/securityhotspotstore/index.pb	(date 1709477440760)
+@@ -0,0 +1,86 @@
++
++H
++applications_manager.iml,a\9\a9f6f1b8a7c144d1a61dc86beb23477c1fbfa269
++\
++,src/main/java/repository/CarsRepository.java,5\a\5a88e64892c3a27b07997e6849656f58598cb2f0
++:
++
++.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
++i
++9src/main/java/service/CarsTableManagementServiceImpl.java,1\2\124082cfe2d4d93cbeecf5c7bad5a3af69448e69
++U
++%src/main/java/test/CarsTableTest.java,0\e\0e7ae8e0a4476f14a56c88834d1049404b1b5d0f
++M
++src/main/java/dto/CarDto.java,3\1\31e12ca2ec6e3481a3015e39d75dd049d6c39d5d
++G
++src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
++7
++pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
++e
++5src/main/java/service/CarsTableManagementService.java,5\3\5322a08a652b170b7f38e47328b7eeab6df2d899
++c
++3src/main/java/testingweb/TestingWebApplication.java,e\c\ec7a1db651a91ffca04b63a5906f17cd63ec29b2
++\
++,src/main/java/testingweb/HomeController.java,3\e\3e2849641ae81c802364736a186fa9d17bfcbf3e
++k
++;src/test/java/com/testingweb/TestingWebApplicationTest.java,3\0\30728e6f0fd95acd7b50fd396b5471ef4858a524
++R
++"src/main/java/model/CarEntity.java,0\8\0873c6b5e5e16e6a9932e038d2013560fdea034f
++a
++1src/main/java/accesingdatapostgres/CarEntity.java,6\0\60983a0fd6c824992d5ee4d3e8b7da7eda08d23b
++e
++5src/main/java/accesingdatapostgres/CarRepository.java,f\d\fd6a81b94cf0a4a29fbbf60a4b7163fb58ae6343
++x
++Hsrc/main/java/accesingdatapostgres/AccessingDataPostgresApplication.java,0\7\0761e6a76120cb44c3e3db2a021e37e9efec9ca4
++e
++5src/main/java/accesingdatapostgres/CarController.java,6\e\6e37b8058440ad82acde291d9d662897a08a924b
++X
++(src/main/java/restapi/CarController.java,d\4\d45daec73daa39fa524970b5301117d540b5edd3
++k
++;src/main/java/restapi/AccessingDataPostgresApplication.java,9\0\90a5a5968b1d00b43c7a5b50923107a97b5c96fe
++T
++$src/main/java/restapi/CarEntity.java,2\e\2e99e51f833a0b556424e07e0a8c73470a158b72
++W
++'src/main/java/spring/CarController.java,5\8\58d753ca42a3453db0ef01aaf43e7c8bd23e0b79
++j
++:src/main/java/spring/AccessingDataPostgresApplication.java,4\1\41cf60a5282d3b0094df150a43b2a20ea944af0a
++S
++#src/main/java/spring/CarEntity.java,d\f\df1eb379e87f2a69985549a051aeacac6e17b1f1
++[
+++src/main/java/accesingdatapostgres/Car.java,3\7\371002410e2a6bb6aafe8d3c5f92ebf754999391
++l
++<src/main/java/accesingdatapostgres/CarNotFoundException.java,7\8\78997c000bc73c954814ac0d4fa87881930e34bc
++b
++2src/main/java/accesingdatapostgres/CarService.java,d\3\d34d6a164576ea9339be5973ddf722ba64b82af8
++^
++.src/main/java/accesingdatapostgres/CarDto.java,9\e\9e782a4af204166716c78a97a06abed0d4609ca3
++^
++.src/main/java/accesingdatapostgres/CarApi.java,1\c\1cf05063b23fe4316a8f5704cfdf1f9b17c29da9
++i
++9src/main/java/accesingdatapostgres/dao/CarRepository.java,8\f\8fb88a3b4853092a2389370b1e827946a7545144
++e
++5src/main/java/accesingdatapostgres/dao/CarEntity.java,0\c\0c04d688930ae9c52360285ab5ec249fa278b14c
++i
++9src/main/java/accesingdatapostgres/api/CarController.java,5\2\52935d46a8ca6e0fa11e275059fbbcf7c4f1d982
++j
++:src/main/java/accesingdatapostgres/service/CarService.java,d\6\d620197257aa77a3e1e60109a11bfb70e527c82e
++f
++6src/main/java/accesingdatapostgres/CarApplication.java,8\3\83c08c6f8f85b4ab5c0306e7f6b0578ec2146944
++w
++Gsrc/main/java/accesingdatapostgres/exceptions/CarNotFoundException.java,7\b\7b56d90fe12cd3a986cd33381ea8cc5ee5f476aa
++b
++2src/main/java/accesingdatapostgres/api/CarApi.java,f\a\fae9c267df77efba9f1d6c007615d91d7a7fea41
++l
++<src/main/java/accesingdatapostgres/dao/entity/CarEntity.java,5\b\5b083c200584ca2ba5ca22096cf1fcbe311ed1d1
++U
++%src/main/java/restapi/api/CarApi.java,6\a\6a96dd45e425f1c5b7b492c5655f0497b12cd953
++Y
++)src/main/java/restapi/CarApplication.java,d\5\d5f42bd70af2b67094b1a713e60c2b877df344cc
++\
++,src/main/java/restapi/dao/CarRepository.java,f\7\f752332b358d913ee42c71cd3d37b11b8e748f59
++_
++/src/main/java/restapi/dao/entity/CarEntity.java,8\2\820fc01ab420e7abea3025d0bf9f2f7d2a09f5f2
++Q
++!src/main/java/restapi/CarDto.java,c\9\c999f731dea14b47089ae442d0ce0e60ec6582c4
++f
++6src/main/java/accesingdatapostgres/dao/dto/CarDto.java,d\8\d8eedf375485ce031a318d64424ccd2b5cd3c0e3
+\ No newline at end of file
+Index: applications_manager.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"AdditionalModuleElements\">\r\n    <content url=\"file://$MODULE_DIR$\" dumb=\"true\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/applications_manager.iml b/applications_manager.iml
+--- a/applications_manager.iml	(revision bc60e1edf396549933ebfb197012b4661574760d)
++++ b/applications_manager.iml	(date 1709477555416)
+@@ -5,4 +5,7 @@
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+     </content>
+   </component>
++  <component name="SonarLintModuleSettings">
++    <option name="uniqueId" value="5906ed5d-1c55-4751-8ac5-307d6df35536" />
++  </component>
+ </module>
+\ No newline at end of file
+diff --git a/.idea/sonarlint/securityhotspotstore/5/2/52935d46a8ca6e0fa11e275059fbbcf7c4f1d982 b/.idea/sonarlint/securityhotspotstore/5/2/52935d46a8ca6e0fa11e275059fbbcf7c4f1d982
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/5/8/58d753ca42a3453db0ef01aaf43e7c8bd23e0b79 b/.idea/sonarlint/securityhotspotstore/5/8/58d753ca42a3453db0ef01aaf43e7c8bd23e0b79
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/5/3/5322a08a652b170b7f38e47328b7eeab6df2d899 b/.idea/sonarlint/securityhotspotstore/5/3/5322a08a652b170b7f38e47328b7eeab6df2d899
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/5/a/5abc956d696286d7a3778d2a22dee8aa20ba8af6 b/.idea/sonarlint/securityhotspotstore/5/a/5abc956d696286d7a3778d2a22dee8aa20ba8af6
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/5/a/5a88e64892c3a27b07997e6849656f58598cb2f0 b/.idea/sonarlint/securityhotspotstore/5/a/5a88e64892c3a27b07997e6849656f58598cb2f0
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/5/b/5b083c200584ca2ba5ca22096cf1fcbe311ed1d1 b/.idea/sonarlint/securityhotspotstore/5/b/5b083c200584ca2ba5ca22096cf1fcbe311ed1d1
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/6/1/6102d4a9076bf5ba40a3a8ab9abadeac756b8db2 b/.idea/sonarlint/securityhotspotstore/6/1/6102d4a9076bf5ba40a3a8ab9abadeac756b8db2
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/6/0/60983a0fd6c824992d5ee4d3e8b7da7eda08d23b b/.idea/sonarlint/securityhotspotstore/6/0/60983a0fd6c824992d5ee4d3e8b7da7eda08d23b
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/6/a/6a96dd45e425f1c5b7b492c5655f0497b12cd953 b/.idea/sonarlint/securityhotspotstore/6/a/6a96dd45e425f1c5b7b492c5655f0497b12cd953
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/6/5/658cc55e1b6a448cddfdc98cbd4635f669823a21 b/.idea/sonarlint/securityhotspotstore/6/5/658cc55e1b6a448cddfdc98cbd4635f669823a21
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/6/e/6e37b8058440ad82acde291d9d662897a08a924b b/.idea/sonarlint/securityhotspotstore/6/e/6e37b8058440ad82acde291d9d662897a08a924b
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/7/8/78997c000bc73c954814ac0d4fa87881930e34bc b/.idea/sonarlint/securityhotspotstore/7/8/78997c000bc73c954814ac0d4fa87881930e34bc
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/7/e/7e1379a4f4d8a2fdd28db4439a593ef9812030e9 b/.idea/sonarlint/securityhotspotstore/7/e/7e1379a4f4d8a2fdd28db4439a593ef9812030e9
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/7/b/7b56d90fe12cd3a986cd33381ea8cc5ee5f476aa b/.idea/sonarlint/securityhotspotstore/7/b/7b56d90fe12cd3a986cd33381ea8cc5ee5f476aa
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/8/2/820fc01ab420e7abea3025d0bf9f2f7d2a09f5f2 b/.idea/sonarlint/securityhotspotstore/8/2/820fc01ab420e7abea3025d0bf9f2f7d2a09f5f2
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/8/a/8ae2255cf1e83a9154aef15bccd791eb25c0df02 b/.idea/sonarlint/securityhotspotstore/8/a/8ae2255cf1e83a9154aef15bccd791eb25c0df02
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/8/3/83c08c6f8f85b4ab5c0306e7f6b0578ec2146944 b/.idea/sonarlint/securityhotspotstore/8/3/83c08c6f8f85b4ab5c0306e7f6b0578ec2146944
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/8/f/8fb88a3b4853092a2389370b1e827946a7545144 b/.idea/sonarlint/securityhotspotstore/8/f/8fb88a3b4853092a2389370b1e827946a7545144
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/9/0/90a5a5968b1d00b43c7a5b50923107a97b5c96fe b/.idea/sonarlint/securityhotspotstore/9/0/90a5a5968b1d00b43c7a5b50923107a97b5c96fe
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/9/0/909762385fc6eb20f922a91c6865741308b57f2c b/.idea/sonarlint/securityhotspotstore/9/0/909762385fc6eb20f922a91c6865741308b57f2c
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/9/e/9e782a4af204166716c78a97a06abed0d4609ca3 b/.idea/sonarlint/securityhotspotstore/9/e/9e782a4af204166716c78a97a06abed0d4609ca3
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/9/9/999f88f38599821632cc6a86be75b805a576d3ed b/.idea/sonarlint/securityhotspotstore/9/9/999f88f38599821632cc6a86be75b805a576d3ed
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/0/7/0761e6a76120cb44c3e3db2a021e37e9efec9ca4 b/.idea/sonarlint/issuestore/0/7/0761e6a76120cb44c3e3db2a021e37e9efec9ca4
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/0/c/0c04d688930ae9c52360285ab5ec249fa278b14c b/.idea/sonarlint/issuestore/0/c/0c04d688930ae9c52360285ab5ec249fa278b14c
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/0/8/0873c6b5e5e16e6a9932e038d2013560fdea034f b/.idea/sonarlint/issuestore/0/8/0873c6b5e5e16e6a9932e038d2013560fdea034f
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/a/3/a34377cf5538e16af7a64e98a59107565c1eeada b/.idea/sonarlint/securityhotspotstore/a/3/a34377cf5538e16af7a64e98a59107565c1eeada
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/a/6/a6c9fd4c1eec41f395fcc3df6879497047efc2ae b/.idea/sonarlint/securityhotspotstore/a/6/a6c9fd4c1eec41f395fcc3df6879497047efc2ae
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302 b/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/a/9/a9f6f1b8a7c144d1a61dc86beb23477c1fbfa269 b/.idea/sonarlint/securityhotspotstore/a/9/a9f6f1b8a7c144d1a61dc86beb23477c1fbfa269
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/1/c/1cf05063b23fe4316a8f5704cfdf1f9b17c29da9 b/.idea/sonarlint/issuestore/1/c/1cf05063b23fe4316a8f5704cfdf1f9b17c29da9
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/a/9/a9e9c1c8ce0cb0029dff7eafeb13593a229032b1 b/.idea/sonarlint/securityhotspotstore/a/9/a9e9c1c8ce0cb0029dff7eafeb13593a229032b1
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/2/e/2e99e51f833a0b556424e07e0a8c73470a158b72 b/.idea/sonarlint/issuestore/2/e/2e99e51f833a0b556424e07e0a8c73470a158b72
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1 b/.idea/sonarlint/securityhotspotstore/a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c b/.idea/sonarlint/securityhotspotstore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/c/9/c999f731dea14b47089ae442d0ce0e60ec6582c4 b/.idea/sonarlint/securityhotspotstore/c/9/c999f731dea14b47089ae442d0ce0e60ec6582c4
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/c/f/cf97abcbdd6c1c864c96f30d40cf2fb69b93bafe b/.idea/sonarlint/securityhotspotstore/c/f/cf97abcbdd6c1c864c96f30d40cf2fb69b93bafe
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/3/1/31a9a32d0f87464aa4927174501d7521033b7ed0 b/.idea/sonarlint/issuestore/3/1/31a9a32d0f87464aa4927174501d7521033b7ed0
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/3/1/31e12ca2ec6e3481a3015e39d75dd049d6c39d5d b/.idea/sonarlint/issuestore/3/1/31e12ca2ec6e3481a3015e39d75dd049d6c39d5d
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/3/2/32bfe95142c3524a2698670ca864738df628ed8d b/.idea/sonarlint/issuestore/3/2/32bfe95142c3524a2698670ca864738df628ed8d
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/3/f/3f79c038e7c2357102fac035346082fd3839b5da b/.idea/sonarlint/issuestore/3/f/3f79c038e7c2357102fac035346082fd3839b5da
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/d/3/d34d6a164576ea9339be5973ddf722ba64b82af8 b/.idea/sonarlint/securityhotspotstore/d/3/d34d6a164576ea9339be5973ddf722ba64b82af8
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/d/5/d5f42bd70af2b67094b1a713e60c2b877df344cc b/.idea/sonarlint/securityhotspotstore/d/5/d5f42bd70af2b67094b1a713e60c2b877df344cc
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/d/4/d45daec73daa39fa524970b5301117d540b5edd3 b/.idea/sonarlint/securityhotspotstore/d/4/d45daec73daa39fa524970b5301117d540b5edd3
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/d/8/d8eedf375485ce031a318d64424ccd2b5cd3c0e3 b/.idea/sonarlint/securityhotspotstore/d/8/d8eedf375485ce031a318d64424ccd2b5cd3c0e3
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/d/6/d620197257aa77a3e1e60109a11bfb70e527c82e b/.idea/sonarlint/securityhotspotstore/d/6/d620197257aa77a3e1e60109a11bfb70e527c82e
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/d/f/df1eb379e87f2a69985549a051aeacac6e17b1f1 b/.idea/sonarlint/securityhotspotstore/d/f/df1eb379e87f2a69985549a051aeacac6e17b1f1
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec b/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/d/a/da525b5071cf9005e2fbac57a2c92aea8e03c6f9 b/.idea/sonarlint/securityhotspotstore/d/a/da525b5071cf9005e2fbac57a2c92aea8e03c6f9
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/4/1/41cf60a5282d3b0094df150a43b2a20ea944af0a b/.idea/sonarlint/issuestore/4/1/41cf60a5282d3b0094df150a43b2a20ea944af0a
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10 b/.idea/sonarlint/securityhotspotstore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/5/2/52935d46a8ca6e0fa11e275059fbbcf7c4f1d982 b/.idea/sonarlint/issuestore/5/2/52935d46a8ca6e0fa11e275059fbbcf7c4f1d982
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/e/a/eab7158a09bf8f86b164b55a41e0f0ac551e072b b/.idea/sonarlint/securityhotspotstore/e/a/eab7158a09bf8f86b164b55a41e0f0ac551e072b
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/5/8/58d753ca42a3453db0ef01aaf43e7c8bd23e0b79 b/.idea/sonarlint/issuestore/5/8/58d753ca42a3453db0ef01aaf43e7c8bd23e0b79
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/e/8/e86ea66d7e2bd0b005c2b3bc0c2f3b715ff63779 b/.idea/sonarlint/securityhotspotstore/e/8/e86ea66d7e2bd0b005c2b3bc0c2f3b715ff63779
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/5/3/5322a08a652b170b7f38e47328b7eeab6df2d899 b/.idea/sonarlint/issuestore/5/3/5322a08a652b170b7f38e47328b7eeab6df2d899
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/e/c/ec7a1db651a91ffca04b63a5906f17cd63ec29b2 b/.idea/sonarlint/securityhotspotstore/e/c/ec7a1db651a91ffca04b63a5906f17cd63ec29b2
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/5/a/5abc956d696286d7a3778d2a22dee8aa20ba8af6 b/.idea/sonarlint/issuestore/5/a/5abc956d696286d7a3778d2a22dee8aa20ba8af6
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/e/a/ea0bd9ee201606b83b9a5947887aa817be090872 b/.idea/sonarlint/securityhotspotstore/e/a/ea0bd9ee201606b83b9a5947887aa817be090872
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/5/a/5a88e64892c3a27b07997e6849656f58598cb2f0 b/.idea/sonarlint/issuestore/5/a/5a88e64892c3a27b07997e6849656f58598cb2f0
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/5/b/5b083c200584ca2ba5ca22096cf1fcbe311ed1d1 b/.idea/sonarlint/issuestore/5/b/5b083c200584ca2ba5ca22096cf1fcbe311ed1d1
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/6/1/6102d4a9076bf5ba40a3a8ab9abadeac756b8db2 b/.idea/sonarlint/issuestore/6/1/6102d4a9076bf5ba40a3a8ab9abadeac756b8db2
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/6/0/60983a0fd6c824992d5ee4d3e8b7da7eda08d23b b/.idea/sonarlint/issuestore/6/0/60983a0fd6c824992d5ee4d3e8b7da7eda08d23b
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f b/.idea/sonarlint/securityhotspotstore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/6/a/6a96dd45e425f1c5b7b492c5655f0497b12cd953 b/.idea/sonarlint/issuestore/6/a/6a96dd45e425f1c5b7b492c5655f0497b12cd953
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/6/5/658cc55e1b6a448cddfdc98cbd4635f669823a21 b/.idea/sonarlint/issuestore/6/5/658cc55e1b6a448cddfdc98cbd4635f669823a21
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/f/6/f62faa2ca4367e237e95e4087007b4cd5449cdac b/.idea/sonarlint/securityhotspotstore/f/6/f62faa2ca4367e237e95e4087007b4cd5449cdac
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/f/4/f4183089862fac976ef6b4c348071c2971ba3f59 b/.idea/sonarlint/securityhotspotstore/f/4/f4183089862fac976ef6b4c348071c2971ba3f59
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/6/e/6e37b8058440ad82acde291d9d662897a08a924b b/.idea/sonarlint/issuestore/6/e/6e37b8058440ad82acde291d9d662897a08a924b
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/f/a/fae9c267df77efba9f1d6c007615d91d7a7fea41 b/.idea/sonarlint/securityhotspotstore/f/a/fae9c267df77efba9f1d6c007615d91d7a7fea41
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/f/7/f752332b358d913ee42c71cd3d37b11b8e748f59 b/.idea/sonarlint/securityhotspotstore/f/7/f752332b358d913ee42c71cd3d37b11b8e748f59
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/f/d/fd6a81b94cf0a4a29fbbf60a4b7163fb58ae6343 b/.idea/sonarlint/securityhotspotstore/f/d/fd6a81b94cf0a4a29fbbf60a4b7163fb58ae6343
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/f/b/fb71ec2d97be5487f61df00b813d8953c2c93a6e b/.idea/sonarlint/securityhotspotstore/f/b/fb71ec2d97be5487f61df00b813d8953c2c93a6e
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/7/8/78997c000bc73c954814ac0d4fa87881930e34bc b/.idea/sonarlint/issuestore/7/8/78997c000bc73c954814ac0d4fa87881930e34bc
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/7/e/7e1379a4f4d8a2fdd28db4439a593ef9812030e9 b/.idea/sonarlint/issuestore/7/e/7e1379a4f4d8a2fdd28db4439a593ef9812030e9
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/7/b/7b56d90fe12cd3a986cd33381ea8cc5ee5f476aa b/.idea/sonarlint/issuestore/7/b/7b56d90fe12cd3a986cd33381ea8cc5ee5f476aa
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/8/2/820fc01ab420e7abea3025d0bf9f2f7d2a09f5f2 b/.idea/sonarlint/issuestore/8/2/820fc01ab420e7abea3025d0bf9f2f7d2a09f5f2
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/8/a/8ae2255cf1e83a9154aef15bccd791eb25c0df02 b/.idea/sonarlint/issuestore/8/a/8ae2255cf1e83a9154aef15bccd791eb25c0df02
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/8/3/83c08c6f8f85b4ab5c0306e7f6b0578ec2146944 b/.idea/sonarlint/issuestore/8/3/83c08c6f8f85b4ab5c0306e7f6b0578ec2146944
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/8/f/8fb88a3b4853092a2389370b1e827946a7545144 b/.idea/sonarlint/issuestore/8/f/8fb88a3b4853092a2389370b1e827946a7545144
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/9/0/90a5a5968b1d00b43c7a5b50923107a97b5c96fe b/.idea/sonarlint/issuestore/9/0/90a5a5968b1d00b43c7a5b50923107a97b5c96fe
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/9/0/909762385fc6eb20f922a91c6865741308b57f2c b/.idea/sonarlint/issuestore/9/0/909762385fc6eb20f922a91c6865741308b57f2c
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/9/e/9e782a4af204166716c78a97a06abed0d4609ca3 b/.idea/sonarlint/issuestore/9/e/9e782a4af204166716c78a97a06abed0d4609ca3
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/9/9/999f88f38599821632cc6a86be75b805a576d3ed b/.idea/sonarlint/issuestore/9/9/999f88f38599821632cc6a86be75b805a576d3ed
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/a/3/a34377cf5538e16af7a64e98a59107565c1eeada b/.idea/sonarlint/issuestore/a/3/a34377cf5538e16af7a64e98a59107565c1eeada
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/a/6/a6c9fd4c1eec41f395fcc3df6879497047efc2ae b/.idea/sonarlint/issuestore/a/6/a6c9fd4c1eec41f395fcc3df6879497047efc2ae
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302 b/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/a/9/a9f6f1b8a7c144d1a61dc86beb23477c1fbfa269 b/.idea/sonarlint/issuestore/a/9/a9f6f1b8a7c144d1a61dc86beb23477c1fbfa269
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/a/9/a9e9c1c8ce0cb0029dff7eafeb13593a229032b1 b/.idea/sonarlint/issuestore/a/9/a9e9c1c8ce0cb0029dff7eafeb13593a229032b1
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1 b/.idea/sonarlint/issuestore/a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c b/.idea/sonarlint/issuestore/b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/c/9/c999f731dea14b47089ae442d0ce0e60ec6582c4 b/.idea/sonarlint/issuestore/c/9/c999f731dea14b47089ae442d0ce0e60ec6582c4
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/c/f/cf97abcbdd6c1c864c96f30d40cf2fb69b93bafe b/.idea/sonarlint/issuestore/c/f/cf97abcbdd6c1c864c96f30d40cf2fb69b93bafe
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/d/5/d5f42bd70af2b67094b1a713e60c2b877df344cc b/.idea/sonarlint/issuestore/d/5/d5f42bd70af2b67094b1a713e60c2b877df344cc
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/d/4/d45daec73daa39fa524970b5301117d540b5edd3 b/.idea/sonarlint/issuestore/d/4/d45daec73daa39fa524970b5301117d540b5edd3
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/d/8/d8eedf375485ce031a318d64424ccd2b5cd3c0e3 b/.idea/sonarlint/issuestore/d/8/d8eedf375485ce031a318d64424ccd2b5cd3c0e3
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/d/6/d620197257aa77a3e1e60109a11bfb70e527c82e b/.idea/sonarlint/issuestore/d/6/d620197257aa77a3e1e60109a11bfb70e527c82e
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/d/f/df1eb379e87f2a69985549a051aeacac6e17b1f1 b/.idea/sonarlint/issuestore/d/f/df1eb379e87f2a69985549a051aeacac6e17b1f1
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/d/a/da525b5071cf9005e2fbac57a2c92aea8e03c6f9 b/.idea/sonarlint/issuestore/d/a/da525b5071cf9005e2fbac57a2c92aea8e03c6f9
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/e/a/eab7158a09bf8f86b164b55a41e0f0ac551e072b b/.idea/sonarlint/issuestore/e/a/eab7158a09bf8f86b164b55a41e0f0ac551e072b
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/e/8/e86ea66d7e2bd0b005c2b3bc0c2f3b715ff63779 b/.idea/sonarlint/issuestore/e/8/e86ea66d7e2bd0b005c2b3bc0c2f3b715ff63779
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/e/c/ec7a1db651a91ffca04b63a5906f17cd63ec29b2 b/.idea/sonarlint/issuestore/e/c/ec7a1db651a91ffca04b63a5906f17cd63ec29b2
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/e/a/ea0bd9ee201606b83b9a5947887aa817be090872 b/.idea/sonarlint/issuestore/e/a/ea0bd9ee201606b83b9a5947887aa817be090872
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f b/.idea/sonarlint/issuestore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/f/6/f62faa2ca4367e237e95e4087007b4cd5449cdac b/.idea/sonarlint/issuestore/f/6/f62faa2ca4367e237e95e4087007b4cd5449cdac
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/f/4/f4183089862fac976ef6b4c348071c2971ba3f59 b/.idea/sonarlint/issuestore/f/4/f4183089862fac976ef6b4c348071c2971ba3f59
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/f/a/fae9c267df77efba9f1d6c007615d91d7a7fea41 b/.idea/sonarlint/issuestore/f/a/fae9c267df77efba9f1d6c007615d91d7a7fea41
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/f/7/f752332b358d913ee42c71cd3d37b11b8e748f59 b/.idea/sonarlint/issuestore/f/7/f752332b358d913ee42c71cd3d37b11b8e748f59
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/f/d/fd6a81b94cf0a4a29fbbf60a4b7163fb58ae6343 b/.idea/sonarlint/issuestore/f/d/fd6a81b94cf0a4a29fbbf60a4b7163fb58ae6343
+new file mode 100644
+diff --git a/.idea/sonarlint/issuestore/f/b/fb71ec2d97be5487f61df00b813d8953c2c93a6e b/.idea/sonarlint/issuestore/f/b/fb71ec2d97be5487f61df00b813d8953c2c93a6e
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/0/7/0761e6a76120cb44c3e3db2a021e37e9efec9ca4 b/.idea/sonarlint/securityhotspotstore/0/7/0761e6a76120cb44c3e3db2a021e37e9efec9ca4
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/0/c/0c04d688930ae9c52360285ab5ec249fa278b14c b/.idea/sonarlint/securityhotspotstore/0/c/0c04d688930ae9c52360285ab5ec249fa278b14c
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/0/8/0873c6b5e5e16e6a9932e038d2013560fdea034f b/.idea/sonarlint/securityhotspotstore/0/8/0873c6b5e5e16e6a9932e038d2013560fdea034f
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/0/e/0e7ae8e0a4476f14a56c88834d1049404b1b5d0f b/.idea/sonarlint/securityhotspotstore/0/e/0e7ae8e0a4476f14a56c88834d1049404b1b5d0f
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/1/c/1cf05063b23fe4316a8f5704cfdf1f9b17c29da9 b/.idea/sonarlint/securityhotspotstore/1/c/1cf05063b23fe4316a8f5704cfdf1f9b17c29da9
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/1/2/124082cfe2d4d93cbeecf5c7bad5a3af69448e69 b/.idea/sonarlint/securityhotspotstore/1/2/124082cfe2d4d93cbeecf5c7bad5a3af69448e69
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/2/e/2e99e51f833a0b556424e07e0a8c73470a158b72 b/.idea/sonarlint/securityhotspotstore/2/e/2e99e51f833a0b556424e07e0a8c73470a158b72
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/3/0/30728e6f0fd95acd7b50fd396b5471ef4858a524 b/.idea/sonarlint/securityhotspotstore/3/0/30728e6f0fd95acd7b50fd396b5471ef4858a524
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/3/1/31a9a32d0f87464aa4927174501d7521033b7ed0 b/.idea/sonarlint/securityhotspotstore/3/1/31a9a32d0f87464aa4927174501d7521033b7ed0
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/3/1/31e12ca2ec6e3481a3015e39d75dd049d6c39d5d b/.idea/sonarlint/securityhotspotstore/3/1/31e12ca2ec6e3481a3015e39d75dd049d6c39d5d
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/3/7/371002410e2a6bb6aafe8d3c5f92ebf754999391 b/.idea/sonarlint/securityhotspotstore/3/7/371002410e2a6bb6aafe8d3c5f92ebf754999391
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/3/2/32bfe95142c3524a2698670ca864738df628ed8d b/.idea/sonarlint/securityhotspotstore/3/2/32bfe95142c3524a2698670ca864738df628ed8d
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/3/f/3f79c038e7c2357102fac035346082fd3839b5da b/.idea/sonarlint/securityhotspotstore/3/f/3f79c038e7c2357102fac035346082fd3839b5da
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/3/e/3e2849641ae81c802364736a186fa9d17bfcbf3e b/.idea/sonarlint/securityhotspotstore/3/e/3e2849641ae81c802364736a186fa9d17bfcbf3e
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec b/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+new file mode 100644
+diff --git a/.idea/sonarlint/securityhotspotstore/4/1/41cf60a5282d3b0094df150a43b2a20ea944af0a b/.idea/sonarlint/securityhotspotstore/4/1/41cf60a5282d3b0094df150a43b2a20ea944af0a
+new file mode 100644

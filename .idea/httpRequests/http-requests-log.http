@@ -1,0 +1,738 @@
+DELETE http://localhost:8080/cars/delete/1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": 2004
+}
+
+<> 2024-03-06T190345.200.json
+
+###
+
+PUT http://localhost:8080/cars/update/1
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2023
+}
+
+<> 2024-03-06T190335.200.json
+
+###
+
+PUT http://localhost:8080/cars/update/1
+Content-Type: application/json
+Content-Length: 18
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "year": 2023
+}
+
+<> 2024-03-06T190309.200.json
+
+###
+
+PUT http://localhost:8080/cars/update/1
+Content-Type: application/json
+Content-Length: 68
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 1,
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2022
+}
+
+<> 2024-03-06T190228.200.json
+
+###
+
+DELETE http://localhost:8080/cars/delete/2
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": 2004
+}
+
+<> 2024-03-06T185217.200.json
+
+###
+
+DELETE http://localhost:8080/cars/delete/2
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": 2004
+}
+
+<> 2024-03-06T170443.500.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": 2004
+}
+
+<> 2024-03-06T165803.500.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": 2004
+}
+
+<> 2024-03-06T165645.500.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": 2004
+}
+
+<> 2024-03-03T151549.200.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 62
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": 2004
+}
+
+<> 2024-03-03T145238.200.json
+
+###
+
+DELETE http://localhost:8080/cars/delete/2
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2023
+}
+
+<> 2024-03-03T145055.200.json
+
+###
+
+PUT http://localhost:8080/cars/update
+Content-Type: application/json
+Content-Length: 68
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 3,
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2022
+}
+
+<> 2024-03-03T144939.200.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2023
+}
+
+<> 2024-03-03T144933.200.json
+
+###
+
+PUT http://localhost:8080/cars/update
+Content-Type: application/json
+Content-Length: 68
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 3,
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2022
+}
+
+<> 2024-03-03T144842.200.json
+
+###
+
+PUT http://localhost:8080/cars/update
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2022
+}
+
+<> 2024-03-03T144709.200.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 57
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Volvo",
+  "model": "XC60",
+  "year": 2023
+}
+
+<> 2024-03-03T144214.200.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-03T092431.200.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-03T092430.200.json
+
+###
+
+DELETE http://localhost:8080/cars/delete/2
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+DELETE http://localhost:8080/cars/delete/2
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-03T092123.200.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-03T092122.200.json
+
+###
+
+DELETE http://localhost:8080/cars/delete?id=2
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-03T092012.404.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-03T092008.200.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-03T092006.200.json
+
+###
+
+DELETE http://localhost:8080/cars/delete?id=2
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-03T091657.404.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-03T091652.200.json
+
+###
+
+POST http://localhost:8080/cars/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-03T091650.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-03T091527.404.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-03T091526.404.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-03T090213.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-03T090204.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-03T085714.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-03T085648.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-02T105832.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-02T105830.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-02T105801.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-02T105800.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 53
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "BMW",
+  "model": "X3",
+  "year": 2023
+}
+
+<> 2024-03-02T105522.200.json
+
+###
+
+POST http://localhost:8080/demo/add
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-02T103259.200.json
+
+###
+
+POST http://localhost:8080/demo/
+Content-Type: application/json
+Content-Length: 59
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1969
+}
+
+<> 2024-03-02T103246.404.json
+
+###
+
+POST http://localhost:8080/demo/add?brand=Ford&model=Mustang&year=1969
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-02T103036.400.json
+
+###
+
+POST http://localhost:8080/demo/add?brand=Ford&model=Mustang&year=1969
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-02T102854.400.json
+
+###
+
+POST http://localhost:8080/demo/add?brand=Ford&model=Mustang&year=1969
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-02T102832.400.json
+
+###
+
+POST http://localhost:8080/demo/add?brand=Ford&model=Mustang&year=1969
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-02T102650.400.json
+
+###
+

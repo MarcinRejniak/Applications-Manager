@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-03-06T16:04:43.088+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/cars/add"
+}

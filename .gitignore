@@ -1,3 +1,11 @@
-.idea
+# IntelliJ IDEA files
+.idea/
+
+$ Log files
+*.log
+
+# Gradle directory
+build/
+
 *.iml
-build
+.gradle

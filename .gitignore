@@ -1,7 +1,7 @@
 # IntelliJ IDEA files
 .idea/
 
-$ Log files
+# Log files
 *.log
 
 # Gradle directory

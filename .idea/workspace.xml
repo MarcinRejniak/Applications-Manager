@@ -5,10 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9027d7a0-8d93-425a-acde-7f7f72864257" name="Changes" comment="rest api v2">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/DELETE.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DELETE.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/POST.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/POST.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/PUT.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/PUT.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/ClaimApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/domain/application/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/domain/application/AppRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/domain/application/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/domain/application/dto/AppDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/domain/application/exception/StateNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/domain/application/mapper/AppMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/domain/application/model/AppEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/rejniak/claim/domain/application/service/AppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/POST.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PUT.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/rejniak/claim/ClaimApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2b62c39-4384-44d8-bbfc-5051dd7e19c7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a2b62c39-4384-44d8-bbfc-5051dd7e19c7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_03_2024_15_46__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_03_2024_15_46__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_02_2024_22_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_02_2024_22_54__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications_manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DELETE.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/POST.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PUT.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oldwithoutspring/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oldwithoutspring/dto/CarDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oldwithoutspring/model/CarEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oldwithoutspring/repository/CarsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oldwithoutspring/service/CarsTableManagementService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oldwithoutspring/service/CarsTableManagementServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oldwithoutspring/test/CarsTableTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springrest/CarApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springrest/api/controller/CarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springrest/api/dto/CarDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springrest/api/mapper/CarMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springrest/api/mapper/CarMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springrest/infrastructure/database/entity/CarEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springrest/infrastructure/database/repository/CarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springrest/infrastructure/service/CarService.class" beforeDir="false" />
     </list>
     <list id="aff4e903-3abc-4be7-b9eb-d3b40c356068" name="Changessds" comment="ss" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +70,23 @@
   </component>
   <component name="EndpointsView">
     <option name="showSidePanel" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,80 +138,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.DELETE | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.POST | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.POST | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.PUT | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.scratch | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.scratch | #2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in applications_manager.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AccessingDataPostgresApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CarApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TestingWebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;restApi&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marcin/Desktop/Karol/ultimate/Applications-Manager&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Marcin/Desktop/Karol/ultimate/applications_manager/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.39195403&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Gradle.Build applications_manager.executor": "Run",
+    "HTTP Request.DELETE | #1.executor": "Run",
+    "HTTP Request.POST | #1.executor": "Run",
+    "HTTP Request.POST | #2.executor": "Run",
+    "HTTP Request.PUT | #1.executor": "Run",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #4.executor": "Run",
+    "HTTP Request.scratch | #1.executor": "Run",
+    "HTTP Request.scratch | #2.executor": "Run",
+    "JUnit.All in applications_manager.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.AccessingDataPostgresApplication.executor": "Run",
+    "Spring Boot.CarApplication.executor": "Run",
+    "Spring Boot.ClaimApplication.executor": "Run",
+    "Spring Boot.TestingWebApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Marcin/Desktop/Karol/ultimate/applications_manager/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Marcin/Desktop/Karol/ultimate/applications_manager/src/Main.java",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.39195403",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;postgresql&quot;
+    "DatabaseDriversLRU": [
+      "mysql",
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;HTTP Request&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTTP Request"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="accesingdatapostgres" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcin\Desktop\Karol\ultimate\applications_manager\src\main\resources" />
+      <recent name="C:\Users\Marcin\Desktop\Karol\ultimate\applications_manager\src\main\java\pl\rejniak\claim" />
+      <recent name="C:\Users\Marcin\Desktop\Karol\ultimate\applications_manager" />
       <recent name="C:\Users\Marcin\Desktop\Karol\ultimate\applications_manager\out" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcin\Desktop\Karol\ultimate\applications_manager" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.DELETE | #1">
-    <configuration name="DELETE | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/resources/DELETE.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="POST | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/resources/POST.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="POST | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/resources/POST.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="PUT | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/resources/PUT.http" requestIdentifier="#1" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.ClaimApplication">
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="CarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -164,6 +227,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClaimApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="claim.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.rejniak.claim.ClaimApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

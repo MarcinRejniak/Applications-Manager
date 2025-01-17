@@ -1,0 +1,16 @@
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+###
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+
+{
+  "name": "Application 2",
+  "content": "content2"
+}

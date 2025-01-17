@@ -1,0 +1,24 @@
+
+###
+PUT http://localhost:8083/apps/reject/2/private reason
+Content-Type: application/json
+
+###
+PUT http://localhost:8083/apps/delete/3
+Content-Type: application/json
+
+###
+PUT http://localhost:8083/apps/publish/2
+Content-Type: application/json
+
+###
+PUT http://localhost:8083/apps/accept/3
+Content-Type: application/json
+
+###
+PUT http://localhost:8083/apps/verify/2
+Content-Type: application/json
+
+###
+PUT http://localhost:8083/apps/update/3/changedCon3
+Content-Type: application/json

@@ -1,3 +1,381 @@
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-17T091418.200.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-17T091321.200.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-17T091304.200.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 2",
+  "content": "content2"
+}
+
+<> 2025-01-17T090857.200.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-17T090700.200.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-17T085948.200.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-17T085744.406.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-16T225051.406.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-16T224339.406.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 85
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 2",
+  "content": "content2",
+  "state": "",
+  "reason": ""
+}
+
+<> 2025-01-16T224252.406.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 69
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 2",
+  "content": "content2",
+  "state": ""
+}
+
+<> 2025-01-16T224136.406.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 2",
+  "content": "content2"
+}
+
+<> 2025-01-16T223957.406.json
+
+###
+
+POST http://localhost:8083/create
+Content-Type: application/json
+Content-Length: 63
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Scholarship application",
+  "content": "content"
+}
+
+<> 2025-01-16T222758.404.json
+
+###
+
+POST http://localhost:8083/create
+Content-Type: application/json
+Content-Length: 63
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Scholarship application",
+  "content": "content"
+}
+
+<> 2025-01-16T222753.404.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 63
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Scholarship application",
+  "content": "content"
+}
+
+<> 2025-01-16T222502.404.json
+
+###
+
+POST http://localhost:8083/create
+Content-Type: application/json
+Content-Length: 63
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Scholarship application",
+  "content": "content"
+}
+
+<> 2025-01-16T222332.404.json
+
+###
+
+POST http://localhost:8083/create
+Content-Type: application/json
+Content-Length: 63
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Scholarship application",
+  "content": "content"
+}
+
+<> 2025-01-16T215222.404.json
+
+###
+
+POST http://localhost:8083/create
+Content-Type: application/json
+Content-Length: 63
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Scholarship application",
+  "content": "content"
+}
+
+<> 2025-01-16T213046.404.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-16T213015.404.json
+
+###
+
+POST http://localhost:8083/create
+Accept: application/json
+Content-Length: 19
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    name: ford;
+}
+
+<> 2025-01-16T212625.404.json
+
+###
+
+GET http://localhost:8083/all
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-01-16T212510.404.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-16T210629.404.json
+
+###
+
+POST http://localhost:8083/apps/create
+Content-Type: application/json
+Content-Length: 54
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "Application 3",
+  "content": "content3"
+}
+
+<> 2025-01-16T210328.404.json
+
+###
+
+POST http://localhost:8080/create
+Accept: application/json
+{:
+name:
+}:
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2025-01-16T205229.400.html
+
+###
+
 DELETE http://localhost:8080/cars/delete/1
 Accept: application/json
 Connection: Keep-Alive
@@ -384,355 +762,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 }
 
 <> 2024-03-03T092122.200.json
-
-###
-
-DELETE http://localhost:8080/cars/delete?id=2
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-03T092012.404.json
-
-###
-
-POST http://localhost:8080/cars/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-03T092008.200.json
-
-###
-
-POST http://localhost:8080/cars/add
-Content-Type: application/json
-Content-Length: 59
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1969
-}
-
-<> 2024-03-03T092006.200.json
-
-###
-
-DELETE http://localhost:8080/cars/delete?id=2
-Accept: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-03T091657.404.json
-
-###
-
-POST http://localhost:8080/cars/add
-Content-Type: application/json
-Content-Length: 59
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1969
-}
-
-<> 2024-03-03T091652.200.json
-
-###
-
-POST http://localhost:8080/cars/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-03T091650.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-03T091527.404.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 59
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1969
-}
-
-<> 2024-03-03T091526.404.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-03T090213.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 59
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1969
-}
-
-<> 2024-03-03T090204.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-03T085714.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 59
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1969
-}
-
-<> 2024-03-03T085648.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 59
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1969
-}
-
-<> 2024-03-02T105832.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-02T105830.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-02T105801.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-02T105800.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 53
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "BMW",
-  "model": "X3",
-  "year": 2023
-}
-
-<> 2024-03-02T105522.200.json
-
-###
-
-POST http://localhost:8080/demo/add
-Content-Type: application/json
-Content-Length: 59
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1969
-}
-
-<> 2024-03-02T103259.200.json
-
-###
-
-POST http://localhost:8080/demo/
-Content-Type: application/json
-Content-Length: 59
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1969
-}
-
-<> 2024-03-02T103246.404.json
-
-###
-
-POST http://localhost:8080/demo/add?brand=Ford&model=Mustang&year=1969
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-02T103036.400.json
-
-###
-
-POST http://localhost:8080/demo/add?brand=Ford&model=Mustang&year=1969
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-02T102854.400.json
-
-###
-
-POST http://localhost:8080/demo/add?brand=Ford&model=Mustang&year=1969
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-02T102832.400.json
-
-###
-
-POST http://localhost:8080/demo/add?brand=Ford&model=Mustang&year=1969
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-02T102650.400.json
 
 ###
 

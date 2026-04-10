@@ -1,8 +1,11 @@
 package pl.rejniak.claim.domain.application;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import pl.rejniak.claim.domain.application.dto.AppDto;
+import pl.rejniak.claim.domain.application.dto.ContentChange;
+import pl.rejniak.claim.domain.application.dto.RejectReason;
 import pl.rejniak.claim.domain.application.service.AppService;
 
 import java.util.List;
@@ -13,48 +16,49 @@ import java.util.List;
 public class AppController {
     private final AppService appService;
 
-    @PostMapping(path = "/create")
-    public AppDto createApp(@RequestBody AppDto appDto){
-        return this.appService.create(appDto);
+    @GetMapping
+    public List<AppDto> findAll(){
+        return this.appService.getAll();
     }
 
-    @PutMapping(path = "/verify/{id}")
-    public AppDto verify(@PathVariable Long id){
-        return this.appService.verify(id);
-    }
-
-    @PutMapping(path="/accept/{id}")
-    public AppDto accept(@PathVariable Long id){
-        return this.appService.accept(id);
-    }
-
-    @PutMapping(path = "/publish/{id}")
-    public AppDto publish(@PathVariable Long id){
-        return this.appService.publish(id);
-    }
-
-    @PutMapping(path = "/delete/{id}/{reason}")
-    public AppDto deleteApp(@PathVariable Long id, @PathVariable String reason){
-        return this.appService.delete(id, reason);
-    }
-
-    @PutMapping(path = "/reject/{id}/{reason}")
-    public AppDto reject(@PathVariable Long id, @PathVariable String reason){
-        return this.appService.reject(id, reason);
-    }
-
-    @PutMapping(path="/update/{id}/{content}")
-    public AppDto changeContent(@PathVariable Long id, @PathVariable String content){
-        return this.appService.changeContent(id,content);
-    }
-
-    @GetMapping(path = "/one/{id}")
+    @GetMapping(path = "/{id}")
     public AppDto findById(@PathVariable Long id){
         return this.appService.getOne(id);
     }
 
-    @GetMapping(path = "/all")
-    public List<AppDto> findAll(){
-        return this.appService.getAll();
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+    public AppDto createApp(@RequestBody AppDto appDto){
+        return this.appService.create(appDto);
+    }
+
+    @PatchMapping(path = "/{id}/verify")
+    public AppDto verify(@PathVariable Long id){
+        return this.appService.verify(id);
+    }
+
+    @PatchMapping(path="/{id}/accept")
+    public AppDto accept(@PathVariable Long id){
+        return this.appService.accept(id);
+    }
+
+    @PatchMapping(path = "/{id}/publish")
+    public AppDto publish(@PathVariable Long id){
+        return this.appService.publish(id);
+    }
+
+    @PatchMapping(path = "/{id}/reject")
+    public AppDto reject(@PathVariable Long id, @RequestBody RejectReason rejectReason){
+        return this.appService.reject(id, rejectReason.reason());
+    }
+
+    @PatchMapping(path = "/{id}/delete")
+    public AppDto deleteApp(@PathVariable Long id, @RequestBody RejectReason rejectReason){
+        return this.appService.delete(id, rejectReason.reason());
+    }
+
+    @PatchMapping(path="/{id}/content")
+    public AppDto changeContent(@PathVariable Long id, @RequestBody ContentChange contentChange){
+        return this.appService.changeContent(id, contentChange.newContent());
     }
 }

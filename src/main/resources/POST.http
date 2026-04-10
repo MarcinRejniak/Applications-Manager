@@ -1,4 +1,13 @@
-POST http://localhost:8083/apps/create
+POST http://localhost:8083/apps
+Content-Type: application/json
+
+{
+  "name": "Application 4",
+  "content": "content 4"
+}
+
+###
+POST http://localhost:8083/apps
 Content-Type: application/json
 
 {
@@ -7,7 +16,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:8083/apps/create
+POST http://localhost:8083/apps
 Content-Type: application/json
 
 {

@@ -1,0 +1,38 @@
+PATCH http://localhost:8083/apps/4/content
+Content-Type: application/json
+
+{
+  "newContent": "new content 4"
+}
+
+###
+PATCH http://localhost:8083/apps/3/delete
+Content-Type: application/json
+
+{
+  "reason": "insufficient documents so delete please"
+}
+
+###
+PATCH http://localhost:8083/apps/2/reject
+Content-Type: application/json
+
+{
+  "reason": "insufficient documents"
+}
+
+###
+PATCH http://localhost:8083/apps/1/publish
+Content-Type: application/json
+
+###
+PATCH http://localhost:8083/apps/1/accept
+Content-Type: application/json
+
+###
+PATCH http://localhost:8083/apps/2/verify
+Content-Type: application/json
+
+###
+PATCH http://localhost:8083/apps/1/verify
+Content-Type: application/json

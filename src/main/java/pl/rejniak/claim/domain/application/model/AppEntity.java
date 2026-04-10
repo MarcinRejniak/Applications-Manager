@@ -17,6 +17,8 @@ public class AppEntity {
     private Long id;
     private String name;
     private String content;
+
+    @Enumerated(EnumType.STRING)
     private State state;
     private String reason;
 

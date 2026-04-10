@@ -3,8 +3,6 @@ package pl.rejniak.claim.domain.application.service;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
-import pl.rejniak.claim.domain.application.AppController;
 import pl.rejniak.claim.domain.application.AppRepository;
 import pl.rejniak.claim.domain.application.State;
 import pl.rejniak.claim.domain.application.dto.AppDto;
@@ -41,7 +39,7 @@ public class AppService {
         }
     }
 
-    public AppDto accept(@PathVariable Long id) {
+    public AppDto accept(Long id) {
         AppEntity appEntity = getEntityById(id);
 
         if (appEntity.getState() == State.VERIFIED) {
@@ -53,7 +51,7 @@ public class AppService {
         }
     }
 
-    public AppDto publish(@PathVariable Long id) {
+    public AppDto publish(Long id) {
         AppEntity appEntity = getEntityById(id);
 
         if (appEntity.getState() == State.ACCEPTED) {
@@ -65,7 +63,7 @@ public class AppService {
         }
     }
 
-    public AppDto delete(@PathVariable Long id, @PathVariable String reason) {
+    public AppDto delete(Long id, String reason) {
         AppEntity appEntity = getEntityById(id);
 
         if (appEntity.getState() == State.CREATED) {
@@ -78,7 +76,7 @@ public class AppService {
         }
     }
 
-    public AppDto reject(@PathVariable Long id, @PathVariable String reason) {
+    public AppDto reject(Long id, String reason) {
         AppEntity appEntity = getEntityById(id);
 
         if (appEntity.getState() == State.VERIFIED || appEntity.getState() == State.ACCEPTED) {
@@ -87,11 +85,11 @@ public class AppService {
             appRepository.save(appEntity);
             return this.appMapper.map(appEntity);
         } else {
-            throw new EntityNotFoundException("AppEntity 'VERIFIED' or 'ACCEPTED' not found, appId: [%s]".formatted(id));
+            throw new StateNotFoundException(State.VERIFIED, id);
         }
     }
 
-    public AppDto changeContent(@PathVariable Long id, String newContent) {
+    public AppDto changeContent(Long id, String newContent) {
         AppEntity appEntity = getEntityById(id);
 
         if (appEntity.getState() == State.CREATED || appEntity.getState() == State.VERIFIED) {
@@ -103,7 +101,7 @@ public class AppService {
         }
     }
 
-    public AppDto getOne(@PathVariable Long id) {
+    public AppDto getOne(Long id) {
         return this.appMapper.map(getEntityById(id));
     }
 

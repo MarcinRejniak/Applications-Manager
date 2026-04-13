@@ -1,14 +1,14 @@
 package pl.rejniak.claim.domain.application;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import pl.rejniak.claim.domain.application.dto.AppDto;
 import pl.rejniak.claim.domain.application.dto.ContentChange;
 import pl.rejniak.claim.domain.application.dto.RejectReason;
 import pl.rejniak.claim.domain.application.service.AppService;
-
-import java.util.List;
 
 @RestController
 @RequestMapping(path = "/apps")
@@ -17,8 +17,8 @@ public class AppController {
     private final AppService appService;
 
     @GetMapping
-    public List<AppDto> findAll(){
-        return this.appService.getAll();
+    public Page<AppDto> findAll(@RequestParam(required = false) State state, Pageable pageable) {
+        return this.appService.getAll(state, pageable);
     }
 
     @GetMapping(path = "/{id}")

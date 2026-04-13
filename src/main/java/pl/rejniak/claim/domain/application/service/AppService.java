@@ -2,6 +2,8 @@ package pl.rejniak.claim.domain.application.service;
 
 import jakarta.persistence.EntityNotFoundException;
 import lombok.AllArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import pl.rejniak.claim.domain.application.AppRepository;
 import pl.rejniak.claim.domain.application.State;
@@ -9,9 +11,6 @@ import pl.rejniak.claim.domain.application.dto.AppDto;
 import pl.rejniak.claim.domain.application.exception.StateNotFoundException;
 import pl.rejniak.claim.domain.application.mapper.AppMapper;
 import pl.rejniak.claim.domain.application.model.AppEntity;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 @AllArgsConstructor
@@ -105,11 +104,16 @@ public class AppService {
         return this.appMapper.map(getEntityById(id));
     }
 
-    public List<AppDto> getAll() {
-        Iterable<AppEntity> iterable = appRepository.findAll();
-        List<AppEntity> appEntityList = new ArrayList<>();
-        iterable.forEach(appEntityList::add);
-        return appEntityList.stream().map(appMapper::map).toList();
+    public Page<AppDto> getAll(State state, Pageable pageable) {
+        Page<AppEntity> entities;
+
+        if (state != null) {
+            entities = appRepository.findAllByState(state, pageable);
+        } else {
+            entities = appRepository.findAll(pageable);
+        }
+
+        return entities.map(appMapper::map);
     }
 
     private AppEntity getEntityById(Long id) {

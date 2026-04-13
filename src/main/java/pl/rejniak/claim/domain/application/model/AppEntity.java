@@ -13,7 +13,7 @@ import pl.rejniak.claim.domain.application.State;
 @Table(name = "applications")
 public class AppEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String content;

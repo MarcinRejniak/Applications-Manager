@@ -21,9 +21,9 @@ public class AppService {
     public AppDto create(AppDto appDto) {
         AppEntity appEntity = appMapper.map(appDto);
         appEntity.setState(State.CREATED);
-        this.appRepository.save(appEntity);
+        AppEntity savedEntity = this.appRepository.save(appEntity);
 
-        return appMapper.map(appEntity);
+        return appMapper.map(savedEntity);
     }
 
     public AppDto verify(Long id) {
@@ -31,10 +31,10 @@ public class AppService {
 
         if (appEntity.getState() == State.CREATED) {
             appEntity.setState(State.VERIFIED);
-            appRepository.save(appEntity);
-            return this.appMapper.map(appEntity);
+            AppEntity savedEntity = appRepository.save(appEntity);
+            return this.appMapper.map(savedEntity);
         } else {
-            throw new StateNotFoundException(State.CREATED, id);
+            throw new StateNotFoundException(id, State.CREATED);
         }
     }
 
@@ -43,10 +43,10 @@ public class AppService {
 
         if (appEntity.getState() == State.VERIFIED) {
             appEntity.setState(State.ACCEPTED);
-            appRepository.save(appEntity);
-            return this.appMapper.map(appEntity);
+            AppEntity savedEntity = appRepository.save(appEntity);
+            return this.appMapper.map(savedEntity);
         } else {
-            throw new StateNotFoundException(State.VERIFIED, id);
+            throw new StateNotFoundException(id, State.VERIFIED);
         }
     }
 
@@ -55,10 +55,10 @@ public class AppService {
 
         if (appEntity.getState() == State.ACCEPTED) {
             appEntity.setState(State.PUBLISHED);
-            appRepository.save(appEntity);
-            return this.appMapper.map(appEntity);
+            AppEntity savedEntity = appRepository.save(appEntity);
+            return this.appMapper.map(savedEntity);
         } else {
-            throw new StateNotFoundException(State.ACCEPTED, id);
+            throw new StateNotFoundException(id, State.ACCEPTED);
         }
     }
 
@@ -68,10 +68,10 @@ public class AppService {
         if (appEntity.getState() == State.CREATED) {
             appEntity.setState(State.DELETED);
             appEntity.setReason(reason);
-            appRepository.save(appEntity);
-            return this.appMapper.map(appEntity);
+            AppEntity savedEntity = appRepository.save(appEntity);
+            return this.appMapper.map(savedEntity);
         } else {
-            throw new StateNotFoundException(State.CREATED, id);
+            throw new StateNotFoundException(id, State.CREATED);
         }
     }
 
@@ -81,10 +81,10 @@ public class AppService {
         if (appEntity.getState() == State.VERIFIED || appEntity.getState() == State.ACCEPTED) {
             appEntity.setState(State.REJECTED);
             appEntity.setReason(reason);
-            appRepository.save(appEntity);
-            return this.appMapper.map(appEntity);
+            AppEntity savedEntity = appRepository.save(appEntity);
+            return this.appMapper.map(savedEntity);
         } else {
-            throw new StateNotFoundException(State.VERIFIED, id);
+            throw new StateNotFoundException(id, State.VERIFIED, State.ACCEPTED);
         }
     }
 
@@ -93,10 +93,10 @@ public class AppService {
 
         if (appEntity.getState() == State.CREATED || appEntity.getState() == State.VERIFIED) {
             appEntity.setContent(newContent);
-            appRepository.save(appEntity);
-            return this.appMapper.map(appEntity);
+            AppEntity savedEntity = appRepository.save(appEntity);
+            return this.appMapper.map(savedEntity);
         } else {
-            throw new EntityNotFoundException("AppEntity 'CREATED' or 'VERIFIED' not found, appId: [%s]".formatted(id));
+            throw new StateNotFoundException(id, State.CREATED, State.VERIFIED);
         }
     }
 
